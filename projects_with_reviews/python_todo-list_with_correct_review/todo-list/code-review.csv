@@ -1,0 +1,4 @@
+sha,filename,url,lines,title,comment,priority,category,additional,id,private
+"","/todo_list.py","","48:8-48:35","","Before performing operations, the program ensures that the index is below the size of the task list to prevent errors. Additionally, the program ought to confirm that the index in question is above 0.","0","","","1bccac50-91ad-4335-9f15-7e4df3b668bf","0"
+"","/todo_list.py","","63:8-63:35","","Before performing operations, the program ensures that the index is below the size of the task list to prevent errors. Additionally, the program ought to confirm that the index in question is above 0.","0","","","1354e432-a6c3-42eb-853a-139f2af659c4","0"
+"","/todo_list.py","","85:23-85:39","","The correct usage would be enumerate(tasks, start=1) since currently the element indexing begins at 0. This could lead to difficulties for the user when trying to select the appropriate element from the list.","0","","","b4336adb-7c3f-48f1-8ecf-0af4736b7177","0"
