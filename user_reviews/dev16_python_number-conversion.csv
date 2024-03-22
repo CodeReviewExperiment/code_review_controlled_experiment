@@ -1,0 +1,11 @@
+filename,lines,title,comment
+/number_conversion.py,36:8-36:64,,Format.HEXADECIMAL incorrectly points to base 8. It should be 16.
+/number_conversion.py,42:4-43:46,,The requirement in the main file states that the function should accepts only numbers between 0 and 4000 (both excluded)
+/number_conversion.py,45:4-45:31,,change to \nif not 0 < number < 4000:
+/number_conversion.py,61:4-61:15,,This precondition check is incorrect. Now the function accepts 0 as input. Only positive numbers are supported. \nYou should change to\nif num <= 0:
+/number_conversion.py,81:4-81:26,,add some comment to explain why the array is reversed
+/number_conversion.py,68:8-68:39,,only check for base >= 11
+/number_conversion.py,58:0-59:0,,"exclude 10 from base, the input number is 10base and should be converted to other base"
+/number_conversion.py,75:8-76:39,,"useless check, just update initial while"
+/number_conversion.py,66:4-66:19,,consider change the while condition to \nwhile div > 1:
+/number_conversion.py,79:12-79:39,,"if you refactor the while condition, this return could be useless"

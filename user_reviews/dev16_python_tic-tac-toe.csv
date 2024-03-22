@@ -1,0 +1,16 @@
+filename,lines,title,comment
+/tic_tac_toe.py,104:12-108:42,,extract this code in a function\n\ndef player_turn(board):\n  ...
+/tic_tac_toe.py,97:12-97:80,,extract this code in a function\ndef print_board(board):\n  ...
+/tic_tac_toe.py,117:16-117:84,,extract this code in a function\ndef print_board(board):\n  ...
+/tic_tac_toe.py,87:8-87:76,,extract this code in a function\ndef print_board(board):\n  ...
+/tic_tac_toe.py,102:12-102:80,,extract this code in a function\ndef print_board(board):\n  ...
+/tic_tac_toe.py,90:8-95:21,,"Extract this code in a function that returns 'None' if one one won, else the winner ('X' or 'Y').\nRename s into winner\n\ndef check_winner(board):\n  winner = None\n  ...\n  return winner"
+/tic_tac_toe.py,110:12-115:25,,Extract this code in a function (see previous review)\n\ndef check_winner(board):\n  winner = None\n  ...\n  return winner
+/tic_tac_toe.py,96:11-96:12,,"Rename this variable into ""winner"""
+/tic_tac_toe.py,116:15-116:16,,"rename this variable into ""winner"""
+/tic_tac_toe.py,44:4-44:18,,rename into ai_turn
+/tic_tac_toe.py,71:35-71:35,,renames all variables to something more meaningful
+/tic_tac_toe.py,57:4-77:0,,renames all variables to something more meaningful
+/tic_tac_toe.py,27:4-27:11,,check if this function can be removed
+/tic_tac_toe.py,101:15-101:44,,"create a function with a meaningfull name, e.g.,\n\ndef is_board_full(board):"
+/tic_tac_toe.py,86:14-86:43,,"create a function with a meaningfull name, e.g.,\n\ndef is_board_full(board):"

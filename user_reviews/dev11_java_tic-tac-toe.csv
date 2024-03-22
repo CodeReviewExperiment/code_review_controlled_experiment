@@ -1,0 +1,10 @@
+filename,lines,title,comment
+/src/main/java/org/crprojects/TicTacToe.java,84:0-101:5,,Please move these to a separate file for readability
+/src/main/java/org/crprojects/TicTacToe.java,67:0-82:5,,Please move this enum to a separate file for readability
+/src/main/java/org/crprojects/TicTacToe.java,110:0-116:9,,Please move these lines to a separate method
+/src/main/java/org/crprojects/TicTacToe.java,135:24-138:58,,It would be better to have the concept of a cell in it's own class. In this way all these checks can be encapsulated.
+/src/main/java/org/crprojects/TicTacToe.java,179:0-185:13,,Please use the same method as suggested on line 110 here
+/src/main/java/org/crprojects/TicTacToe.java,124:0-128:94,,move these initializiations into a separate
+/src/main/java/org/crprojects/TicTacToe.java,122:0-131:37,,Combine these loops into one while loop and do the initialization outside of the loop
+/src/main/java/org/crprojects/TicTacToe.java,133:16-168:17,,This code can be refactored so that this for loop is not needed since the `outcome == null` check is in the enclosing  while loop.
+/src/main/java/org/crprojects/TicTacToe.java,17:0-17:24,,This code needs major refactoring before reviewing the details. Please adjust according to the comments below and then we do a second round.

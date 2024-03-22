@@ -1,0 +1,7 @@
+filename,lines,title,comment
+/python/maze-generator/maze_generator.py,15:4-16:62,,wrong defaults
+/python/maze-generator/maze_generator.py,33:4-33:61,,it would be great if we make this more readable. can we add at least some comments?\nwhy do we add one more cell to width?\nwhy do we add one more row to height?
+/python/maze-generator/maze_generator.py,55:8-55:60,,can we add a comment here saying that these are the possible directions?
+/python/maze-generator/maze_generator.py,60:12-61:43,,add a comment
+/python/maze-generator/maze_generator.py,62:12-63:43,,add a comment
+/python/maze-generator/maze_generator.py,64:12-64:24,,"it looks like x or y can go out of bounds, but the generated mazes look correct.\ncan you add a comment on why going out of bounds doesn't break functionality?\nor does the indexes do not go out of bounds?"

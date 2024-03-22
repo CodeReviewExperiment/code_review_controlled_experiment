@@ -1,0 +1,13 @@
+filename,lines,title,comment
+/cr-study-2024/java/stopwatch/src/main/java/org/crprojects/StopWatch.java,5:0-41:3,,"I'm assuming the purpose of this html code is to be rendered somehow on a web browser. In the IDE it looks like a big mess though, it would be better to use common syntax"
+/cr-study-2024/java/stopwatch/src/main/java/org/crprojects/StopWatch.java,254:0-259:9,,These two if branches could be merged into a single one since their condition are identical
+/cr-study-2024/java/stopwatch/src/main/java/org/crprojects/StopWatch.java,254:0-265:9,,"These if blocks could be refactored into a switch-case, which is more manageable in case more states arise"
+/cr-study-2024/java/stopwatch/src/main/java/org/crprojects/StopWatch.java,282:0-284:9,,I like the use of early returns
+/cr-study-2024/java/stopwatch/src/main/java/org/crprojects/StopWatch.java,347:0-362:5,,"The conversion is hard-coded to nanoseconds, which is not what the methods comments seem to express"
+/cr-study-2024/java/stopwatch/src/main/java/org/crprojects/StopWatch.java,375:57-375:64,,typo?
+/cr-study-2024/java/stopwatch/src/main/java/org/crprojects/StopWatch.java,377:43-377:50,,"typo, it should say stopped"
+/cr-study-2024/java/stopwatch/src/main/java/org/crprojects/StopWatch.java,385:38-385:45,,"typo, it should say suspended"
+/cr-study-2024/java/stopwatch/src/main/java/org/crprojects/StopWatch.java,387:43-387:50,,"typo, it should say suspended"
+/cr-study-2024/java/stopwatch/src/main/java/org/crprojects/StopWatch.java,405:29-405:49,,unclear sentence
+/cr-study-2024/java/stopwatch/src/main/java/org/crprojects/StopWatch.java,482:0-490:9,,An if-else could be used to avoid to specify the condition at line 487
+/cr-study-2024/java/stopwatch/src/main/java/org/crprojects/StopWatch.java,482:0-486:9,,This method could be refactored in several ways. One way would be to merge these 2 if statements

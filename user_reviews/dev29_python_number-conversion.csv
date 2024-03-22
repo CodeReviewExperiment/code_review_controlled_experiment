@@ -1,0 +1,4 @@
+filename,lines,title,comment
+/number_conversion.py,36:8-36:64,,Format.HEXADECIMAL incorrectly points to base 8. It should be 16.
+/number_conversion.py,42:53-45:31,,"The function currently accepts 0 and 4000 as inputs. For an input of 4000, it produces 'MMMM', which violates standard Roman numeral rules. Moreover, it is likely to yield an erroneous result when provided with an input of 0."
+/number_conversion.py,29:8-29:10,,Consider replacing numbers like 4000 in the decimal_to_roman function with named constants for better readability and maintainability.

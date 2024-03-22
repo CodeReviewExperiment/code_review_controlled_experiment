@@ -1,0 +1,8 @@
+filename,lines,title,comment
+/src/main/java/org/crprojects/NumberConversion.java,57:12-57:57,,Issue: base should be 16 here. This also indicates a missing unit test.
+/src/main/java/org/crprojects/NumberConversion.java,71:8-73:9,,"Suggestion: We can throw an exception here, catch in later to return the same error string. And it will be more feasible to have a proper logging.\n\nAlso, I think 0 shouldn't be a valid input to be converted into the Roman format"
+/src/main/java/org/crprojects/NumberConversion.java,98:8-100:9,,"Suggestion: We can throw an exception here, catch in later to return the same error string. And it will be more feasible to have a proper logging."
+/src/main/java/org/crprojects/NumberConversion.java,102:8-104:9,,"This code can be removed by reconstructing the following while loop (e.g, use a do-while loop instead)."
+/src/main/java/org/crprojects/NumberConversion.java,108:12-108:46,,"nit: we can remove the variable declaration and assignment here, and merge the logic into the next code line."
+/src/main/java/org/crprojects/NumberConversion.java,70:41-70:50,,suggestion: rename the parameter from 'input' to 'num' to make it consistent with the decimalToAnyFormat() method.
+/src/main/java/org/crprojects/NumberConversion.java,95:43-95:52,,suggestion: rename the parameter from 'input' to 'num' to make it consistent with the decimalToAnyFormat() method.

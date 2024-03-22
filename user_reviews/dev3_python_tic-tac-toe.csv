@@ -1,0 +1,6 @@
+filename,lines,title,comment
+/tic_tac_toe.py,76:17-76:17,Returned choice is wrong,"The choice before this is the index into the board array, but you need to add 1 in order to show the play to the user."
+/tic_tac_toe.py,58:4-58:13,Explain variable,Shoud explain what the variable is for. Apparently holds the choice for blocking opponent if no winning move is found.
+/tic_tac_toe.py,64:0-67:0,Not doing as expected,"Code here should check if this 'win line' is achieved, but fails to do so. Not clear what is trying really. Possibly you want something like:\n if tuple(map(lambda n: brd[n], w)) == (xo, xo, xo); break"
+/tic_tac_toe.py,69:0-73:0,Not doing as expected,Just like above but with 'ox' instead of 'xo'
+/tic_tac_toe.py,74:57-74:79,Better choice than random,If position 5 is available it should take it instead of random.

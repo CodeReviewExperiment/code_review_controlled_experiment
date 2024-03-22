@@ -1,0 +1,5 @@
+filename,lines,title,comment
+/maze_generator.py,4:4-4:23,Default values mismatch,"The default values are not consistent since they are not aligned with the documentation i.e., 'the width of the maze. Defaults to 8' and 'the height of the maze. Defaults to 8'"
+/maze_generator.py,9:4-9:62,Improper input validation,"At least one of the two dimensions must be greater than 2, however, there is no such a validation in the logic. Morover, in the main file the documentation says both values are positive numbers, that validation is not handled."
+/maze_generator.py,43:30-43:42,Typo in documentation,y is related to y-coordinate
+/maze_generator.py,73:4-75:12,Modify string construction,Avoid to create temporary lists just to include newline characters

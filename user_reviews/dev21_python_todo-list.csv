@@ -1,0 +1,8 @@
+filename,lines,title,comment
+/todo_list.py,48:8-48:35,Validate negative indexes,"One shoud ensure that the program handles negative indices, currently it is accepting negative indexes which makes sense with Python's negative index convention, however, it is not an expected behaviour for a regular user."
+/todo_list.py,63:8-63:35,Validate negative indexes,"One shoud ensure that the program handles negative indices, currently it is accepting negative indexes which makes sense with Python's negative index convention, however, it is not an expected behaviour for a regular user."
+/todo_list.py,85:23-85:39,Ease index selection for user,"The correct usage would be enumerate(tasks, start=1) since currently the element indexing begins at 0. This could lead to difficulties for the user when trying to select the appropriate element from the list."
+/todo_list.py,37:34-37:42,Validate priority range,"Most likely priority must be between a range given business logic, otherwise the user may introduce an unexpected priority value. Therefore validate the priority input to ensure it is not negative or a big number."
+/todo_list.py,103:8-103:25,Validate options,"The interact_with_app logic is not handling correctly invalid inputs, e.g. ValueError: 10 is not a valid TodoListApp.Option"
+/todo_list.py,198:17-198:17,Input option too lengthy,"The option is too lengthy for the user to write, making it prone to errors when typing, and thereby decreasing user experience."
+/test.py,35:0-35:0,,"Implement (i) Test for handling invalid indexes, and for (ii) new tasks with invalid inputs given the suggested changes in todo_list.py"

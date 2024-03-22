@@ -1,0 +1,16 @@
+filename,lines,title,comment
+/maze_generator.py,8:4-9:64,,The function does not validate the provided w and h arguments beyond the recommendation in the docstring that at least one dimension should be greater than 2. Adding explicit checks and raising a ValueError for invalid dimensions would make the program more robust.
+/maze_generator.py,43:8-43:54,,"It looks like there might be a small mistake in the documentation for the parameters. The description for param y is currently a duplicate of the param x description. To avoid any confusion:\n\nThe :param y: should describe the y-coordinate, not the x-coordinate.\nThe description should read something like :param y: The current y-coordinate in the maze.\nCould you please update the documentation to reflect the correct information for param y? Thank you!"
+/maze_generator.py,37:4-37:19,,"The function does not specify parameters and return value types: add the ""integer"" (`int`) type to both `x` and `y` parameters, and also define the ""string"" (`str`) return value type."
+/maze_generator.py,4:0-4:23,,"The function does not specify parameters and return value types: add the ""integer"" (int) type to both ""w"" (width) and ""h"" (height) parameters, and also define the ""string"" (str) return value type."
+/maze_generator.py,15:0-16:61,,"The function and the docstring do not match: default values for ""w"" (width) and ""h"" (height) parameters are different from the function declaration (w=4, h=6) and the docstring (w=8, h=8). Change docstring or function parameters values according to the specification."
+/maze_generator.py,33:4-33:7|34:4-34:7|35:4-35:7,,Rename variables using more readable names like:\n- `vis` -> `visited`\n- `ver` -> `vertical`\n- `hor` -> `horizontal`
+/maze_generator.py,4:14-4:22,,Rename variables using more readable names like:\n- `w` -> `width`\n- `h` -> `height`
+/maze_generator.py,12:4-13:64,,Add a description of how the void cells are represented (three blank spaces).
+/maze_generator.py,34:28-34:29|34:13-34:14|35:28-35:29|35:13-35:14,,"Define constants for chars used to draw the maze (`|`, `+`, `---`) to improve maintainability;"
+/maze_generator.py,68:4-70:26,,"Add `north`, `south`, `west`, `east` constants to improve readability as follow:\n```\nnorth = 0\nsouth = h - 1\nwest = 0\neast = w\n...\nver[north][west] = ...\nver[south][east] = ...\n```"
+/maze_generator.py,72:4-74:45,,Create a printable maze string using a new function to improve code quality.\nThe new function should take in input `hor` and `ver` parameters and return the string maze representation.
+/maze_generator.py,69:16-69:22|63:37-63:43|70:20-70:26,,"Define a constant for the ""open walls"" ti improve code quality and maintanability;"
+/maze_generator.py,34:14-34:17|61:39-61:42|63:39-63:42|69:18-69:21|70:22-70:25,,Define a constant for the `cell` printing format (three white spaces) and use it to imrpove code quality;
+/maze_generator.py,55:8-55:9|57:13-57:19,,Use more descriptive name for variables like:\n- `d` -> `direction`\n- `xx` -> `direction_x`\n- `yy` -> `direction_y`
+/maze_generator.py,37:4-37:19,,Move the `walk` function outside the `make_maze` function to improve readability;

@@ -1,0 +1,12 @@
+filename,lines,title,comment
+/StopWatch.py,4:0-4:16,,"The code is well-structured and organized, with clear division of responsibilities into appropriate methods and attributes. The use of inner classes for enums enhances the readability and maintainability of the code.\n\nEach method is thoroughly documented, outlining their purpose, parameters, return values, and possible exceptions. The use of type hints in the docstrings is beneficial for code readability.\n\nThe class effectively handles different states for the stopwatch, including unstarted, running, stopped, and suspended states. The error handling for illegal state transitions is well-defined.\n\nThe methods related to time measurement, such as get_nano_time, get_split_nano_time, get_split_time, get_start_time, get_stop_time, and get_time provide clear and consistent functionalities for accessing different time values and measurements of the stopwatch.\n\nThe error handling and raising of specific exceptions when the stopwatch is in an illegal state or when certain operations are called at inappropriate times are robust and help maintain the integrity of the stopwatch."
+/StopWatch.py,33:13-33:20,,rename this class attribute to name (message is semantically wrong)
+/StopWatch.py,41:4-61:17,,"The static methods create and create_started provide convenient ways to create new instances of the StopWatch class, either in an unstarted state or with the stopwatch already started.\n\nBoth static methods should take message (or name) as parameter. "
+/StopWatch.py,63:4-70:27,,refactor to def get_name(self)
+/StopWatch.py,36:8-39:33,,Keep only self.start_time_nanos and self.stop_time_nanos. It is useless to keep 2 variables for same purpose
+/StopWatch.py,181:4-186:50,,"This method lacks the reset of times, consider adding this \nself.start_time_nanos = 0\nself.stop_time_nanos = 0\n"
+/StopWatch.py,221:0-222:0,,remove
+/StopWatch.py,236:8-236:47,,self.running_state = self.State.STOPPED must be inside the if block
+/StopWatch.py,230:8-236:47,,"if self.running_state  != self.State.RUNNING or self.running_state  != self.State.SUSPENDED:\n   raise ValueError(""Stopwatch is not running."")\n\nself.stop_time_nanos = time.time_ns()\nself.stop_time_millis = int(time.time() * 1000)\nself.running_state = self.State.STOPPED"
+/StopWatch.py,247:0-248:0,,remove
+/StopWatch.py,196:33-197:47,,add attributes to keep track of the nanoseconds enlapsed. Reading all the code I noticed that suspend and resume does not work. 
