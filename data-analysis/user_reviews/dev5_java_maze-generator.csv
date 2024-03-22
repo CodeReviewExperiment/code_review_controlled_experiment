@@ -1,0 +1,7 @@
+filename,lines,title,comment
+/src/main/java/org/crprojects/Maze.java,43:18-43:26,,"In the toString() method, using StringBuilder is a more efficient way of creating a string than using String concatenation in loops, which is good. However, result += ... is still used for concatenating rows; it would be more efficient to use the StringBuilder here as well."
+/src/main/java/org/crprojects/Maze.java,58:23-58:23,,Should not use `toString`. It might cause confusion with the overridable method.
+/src/main/java/org/crprojects/Maze.java,86:8-87:87,,"Use curly braces {} in all the if clauses, even though they're one-line sentences."
+/src/main/java/org/crprojects/Maze.java,60:29-60:58,,"Substitute the bit numbers with a reference to N.bit, S.bit, ..."
+/src/main/java/org/crprojects/Maze.java,130:27-130:34,,`between` suggests using a lower and an upper values. Either generalize the method or rename 
+/src/main/java/org/crprojects/Maze.java,65:22-65:22,,"Use the data model to generate the entrace, instead of creating an adhoc implementation."

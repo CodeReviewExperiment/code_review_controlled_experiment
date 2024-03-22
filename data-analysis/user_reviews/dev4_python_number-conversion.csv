@@ -1,0 +1,7 @@
+filename,lines,title,comment
+/cr-study-2024/python/number-conversion/number_conversion.py,36:8-36:64,,Format.HEXADECIMAL incorrectly points to base 8. It should be 16.
+/cr-study-2024/python/number-conversion/number_conversion.py,42:53-45:31,,consider to add a warning message if number is outside the range
+/cr-study-2024/python/number-conversion/number_conversion.py,36:0-37:0,,
+/cr-study-2024/python/number-conversion/number_conversion.py,4:0-9:0,useless class,use constants instead of a class which stores only variables
+/cr-study-2024/python/number-conversion/number_conversion.py,58:4-58:35,,should be < 2 to allow just integers between 2 and 36
+/cr-study-2024/python/number-conversion/number_conversion.py,66:2-80:0,,"this is too complex and bad named.\nyou can use a while loop which loops until num>0, inside it computes the reminder when dividing the number by the base, and update the number by integer division. \nthen appends the converted digits to result string."

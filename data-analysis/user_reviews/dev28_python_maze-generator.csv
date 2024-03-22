@@ -1,0 +1,11 @@
+filename,lines,title,comment
+/cr-study-2024/python/maze-generator/maze_generator.py,8:4-9:64,,The function does not validate the provided w and h arguments beyond the recommendation in the docstring that at least one dimension should be greater than 2. Adding explicit checks and raising a ValueError for invalid dimensions would make the program more robust.
+/cr-study-2024/python/maze-generator/maze_generator.py,43:8-43:54,,"i think the description of :param y: should refer to y, not to x\n\nthis: The current y-coordinate in the maze\ninstead of this: The current x-coordinate in the maze\n"
+/cr-study-2024/python/maze-generator/maze_generator.py,4:0-4:24,,what about using width and height instead of their abbreviations?
+/cr-study-2024/python/maze-generator/maze_generator.py,17:3-18:26,,i'm probably missing why you're not using type annotations :D
+/cr-study-2024/python/maze-generator/maze_generator.py,57:12-57:20,,is it possible to provide more meaningful variable names?
+/cr-study-2024/python/maze-generator/maze_generator.py,61:37-61:43,,"what about using a costant? if that makes sense to you, i'd define one also for the other elements such as ""|   """
+/cr-study-2024/python/maze-generator/maze_generator.py,33:1-35:54,,"maybe a short description of what this does?\nalso, i'm not a fan of abbreviations used as variable names. if you agree consider updating them"
+/cr-study-2024/python/maze-generator/maze_generator.py,72:4-72:10,,"s is the maze, right?"
+/cr-study-2024/python/maze-generator/maze_generator.py,73:0-74:45,,"to me it's clear, but please explain what are you doing here"
+/cr-study-2024/python/maze-generator/maze_generator.py,58:27-58:27,,"this is not wrong, and i'm not sure my alternative is cleaner. just want to make sure you thougth about this.\n\nhere you define an array of values which can be valid or not, in the for loop you have an if statement (at line 58) to check if the value should be skipped. why don't you create an array with valid-only values? i.e., performing the check before adding the tuple."

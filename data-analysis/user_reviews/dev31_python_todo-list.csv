@@ -1,0 +1,3 @@
+filename,lines,title,comment
+/todo_list.py,85:23-85:39,,"The correct usage would be enumerate(tasks, start=1) since currently the element indexing begins at 0. This could lead to difficulties for the user when trying to select the appropriate element from the list."
+/todo_list.py,48:8-49:36,,"Task search by index and index validation should be refactored to a new function. Additionally, the program ought to confirm that the index in question is above 0."

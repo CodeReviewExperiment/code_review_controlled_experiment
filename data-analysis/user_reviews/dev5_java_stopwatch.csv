@@ -1,0 +1,10 @@
+filename,lines,title,comment
+/src/main/java/org/crprojects/StopWatch.java,56:0-71:10,,"Unnecessary use of interfaces in the enum, which hinders the understanding. As the return types are constants, they can be substituted by constructor values, reducing the code length and improving readability."
+/src/main/java/org/crprojects/StopWatch.java,146:46-146:54,,"Use _ separator for a better readability of the number, i.e. 1_000_000L"
+/src/main/java/org/crprojects/StopWatch.java,218:0-219:0,,"Use a private visibility to avoid using the constructor, using the `create` methods instead."
+/src/main/java/org/crprojects/StopWatch.java,228:0-229:0,,Idem as above. Use private constructor
+/src/main/java/org/crprojects/StopWatch.java,257:0-259:9,,Same behavior as Stopped. Join with the previous sentence
+/src/main/java/org/crprojects/StopWatch.java,266:18-266:34,,Avoid using `RuntimeException`. Use `IllegalStateException` instead
+/src/main/java/org/crprojects/StopWatch.java,283:22-283:38,,Avoid using `RuntimeException`. Use `IllegalStateException` instead
+/src/main/java/org/crprojects/StopWatch.java,443:0-444:0,,It doesn't check if it's been previously split
+/src/main/java/org/crprojects/StopWatch.java,481:0-482:0,,Use a list of valid values instead of invalid ones to launch the exception

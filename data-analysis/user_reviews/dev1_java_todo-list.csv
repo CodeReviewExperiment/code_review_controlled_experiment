@@ -1,0 +1,13 @@
+filename,lines,title,comment
+/src/main/java/org/crprojects/TodoListApp.java,127:4-127:34,,"There are several hardcoded strings that are used directly in your methods. For better manageability and localization support, consider using constants or a resource file for storing such strings."
+/src/main/java/org/crprojects/TodoListApp.java,42:8-42:35,,"Before performing operations, the program ensures that the index is below the size of the task list to prevent IndexOutOfBoundsException. Additionally, the program ought to confirm that the index in question is above 0."
+/src/main/java/org/crprojects/TodoListApp.java,62:12-62:39,,"Before performing operations, the program ensures that the index is below the size of the task list to prevent IndexOutOfBoundsException. Additionally, the program ought to confirm that the index in question is above 0."
+/src/main/java/org/crprojects/TodoListApp.java,185:8-185:22,,suggestion: Maybe `while(exit_requested==false) {..}` where `exit_requested` is a `bool` which will be set to `true` when user choose to exit. This move the logic for handling exit (like saving tasks in future to file) to the very end of `run` which makes the code more comprehensible.
+/src/main/java/org/crprojects/TodoListApp.java,117:16-117:72,,"Nit: I would print what I received, to help the user figure out what went wrong."
+/src/main/java/org/crprojects/TodoListApp.java,164:16-164:72,,"Nit: similar to comment above, I would print the number I received, to help the user figure out what went wrong."
+/src/main/java/org/crprojects/TodoListApp.java,138:16-138:48,,"I think at least we should remove leading/trailing whitespaces of the `message`, with `.trim` function."
+/src/main/java/org/crprojects/TodoListApp.java,81:8-81:39,,suggestion: `sortBy.trim().toLowerCase()`
+/src/main/java/org/crprojects/TodoListApp.java,142:16-142:35,,"For case `2` and `3` calling `this.listTasks("""");` will reverse the any sorting done to tasks. \n\n\nIn fact `listTasks` should not perform any sorting, and that logic should be split into a new function.\n\nThen, case `4` (sorting) should first call this new function and then call `listTasks` to print them."
+/src/main/java/org/crprojects/TodoListApp.java,75:4-75:42,,"As I explained in my other comment, this method should be split into two:\n1. `listTasks()`\n2. `sortTasks(sortBy)`"
+/src/main/java/org/crprojects/TodoListApp.java,41:16-41:33,,Nit: `toggle` is a better choice than `reverse`
+/src/main/java/org/crprojects/TodoListApp.java,42:8-42:35,,What if `index` is negative?

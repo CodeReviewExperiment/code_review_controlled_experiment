@@ -1,0 +1,22 @@
+filename,lines,title,comment
+/number_conversion.py,2:0-2:0,,"Functions are well-organized and focused on singular tasks, with decimal_to_any_format as the top-level function that delegates to system-specific conversion functions based on the format passed."
+/number_conversion.py,41:3-44:7,,"By specification, the function needs to work only with values between 0 and 4000, both excluded. So it is required to change both code check and docstring to match this requirement."
+/number_conversion.py,36:8-36:64,,Format.HEXADECIMAL incorrectly points to base 8. It should be 16.
+/number_conversion.py,31:8-31:17,,Raise an error with a description instead of return an empty string.
+/number_conversion.py,54:4-54:23,,"decimal_to_any_base could utilize recursion or a stack to build the result string, which may simplify the code and avoid manual string reversal at the end."
+/number_conversion.py,34:56-34:57,,"Enums or constant values can be used for bases (2, 8, 16) instead of magic numbers. This makes code more readable and flexible in case of changes."
+/number_conversion.py,4:0-8:31,,Use the `enum` built-in functionality instead of a `class`.
+/number_conversion.py,30:26-30:89,,Replace values using the `enum` built-in functionalities e.g. `[format.value for format in Format]` or add a custom function to the `enum` to check if a label (key) is present.\nThis change needs to be done after the `Format` conversion from `class` to `enum`.
+/number_conversion.py,32:4-37:20,,Improve code readability using a loop over the `Format` values.\nAlso catch the errors raised by the called functions;
+/number_conversion.py,46:15-46:79,,Raise an error instead of return a string.
+/number_conversion.py,56:4-56:54,,"Improve the description by adding the fact that the conversion is done on the ""decimal"" (or ten-base) positive integer to another base and returned as string."
+/number_conversion.py,59:8-59:63,,Raise an error instead of return a string.
+/number_conversion.py,62:8-62:47,,Raise an error instead of return a string.
+/number_conversion.py,67:8-67:11,,Rename the `div` variable with a more explicative name like `quotient`.
+/number_conversion.py,67:13-67:16,,Rename the `mod` variable with a more explicative name like `remainder`.
+/number_conversion.py,68:11-68:21,,Consider using `base > 10` which is more is more intuitive.
+/number_conversion.py,65:4-65:11,,Remove `div` variable and replace with `num` variable.
+/number_conversion.py,54:24-54:27,,Rename the `num` variable to `number` to improve consistency between functions.
+/number_conversion.py,29:26-29:29,,Rename the `num` variable to `number` to improve consistency between functions.
+/number_conversion.py,29:26-29:42,,Add typings to the input parameters.
+/number_conversion.py,29:4-29:25,,Add docstring to the function.
