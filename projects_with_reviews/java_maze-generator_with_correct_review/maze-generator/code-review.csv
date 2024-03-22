@@ -1,0 +1,2 @@
+sha,filename,url,lines,title,comment,priority,category,additional,id,private
+"","/src/main/java/org/crprojects/Maze.java","","43:18-43:26","","In the toString() method, using StringBuilder is a more efficient way of creating a string than using String concatenation in loops, which is good. However, result += ... is still used for concatenating rows; it would be more efficient to use the StringBuilder here as well.","0","","","fad63bf6-09ca-4244-8792-8caab8ecaeb5","0"
