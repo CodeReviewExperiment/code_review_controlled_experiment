@@ -9,6 +9,6 @@ Replication Package of the paper:
 
 `server_setup` : this folder contains the Visual Studio code infrastructure setup we used to run the experiment.
 
-`user_reviews` : this folder contains the participants' reviews.
+`user_reviews` : this folder contains the participants' code reviews.
 
 `invitation-email.txt`, `instruction-email.txt` : invitation and instruction emails for participants.
