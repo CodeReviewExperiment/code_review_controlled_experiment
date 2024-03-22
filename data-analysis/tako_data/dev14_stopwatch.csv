@@ -1,0 +1,86 @@
+,event_type,operation,label,is_active,view_column,time,date,project
+41,tabChangeEvent,changed,"""StopWatch.py""",TRUE,1,1708594633307,"""2024-02-22T09:37:13.307Z""",stopwatch
+40,tabChangeEvent,opened,"""StopWatch.py""",TRUE,1,1708594633307,"""2024-02-22T09:37:13.307Z""",stopwatch
+43,tabChangeEvent,opened,"""main.py""",FALSE,1,1708594649384,"""2024-02-22T09:37:29.384Z""",stopwatch
+42,tabChangeEvent,closed,"""StopWatch.py""",TRUE,1,1708594649384,"""2024-02-22T09:37:29.384Z""",stopwatch
+46,tabChangeEvent,opened,"""StopWatch.py""",TRUE,1,1708594671586,"""2024-02-22T09:37:51.586Z""",stopwatch
+45,tabChangeEvent,closed,"""main.py""",FALSE,1,1708594671586,"""2024-02-22T09:37:51.586Z""",stopwatch
+47,tabChangeEvent,changed,"""StopWatch.py""",TRUE,1,1708594671587,"""2024-02-22T09:37:51.587Z""",stopwatch
+48,tabChangeEvent,closed,"""StopWatch.py""",TRUE,1,1708594773480,"""2024-02-22T09:39:33.480Z""",stopwatch
+49,tabChangeEvent,opened,"""main.py""",FALSE,1,1708594776022,"""2024-02-22T09:39:36.022Z""",stopwatch
+50,tabChangeEvent,changed,"""main.py""",FALSE,1,1708594776024,"""2024-02-22T09:39:36.024Z""",stopwatch
+51,tabChangeEvent,closed,"""main.py""",FALSE,1,1708594854898,"""2024-02-22T09:40:54.898Z""",stopwatch
+52,tabChangeEvent,opened,"""StopWatch.py""",TRUE,1,1708594854899,"""2024-02-22T09:40:54.899Z""",stopwatch
+53,tabChangeEvent,changed,"""StopWatch.py""",TRUE,1,1708594854900,"""2024-02-22T09:40:54.900Z""",stopwatch
+54,tabChangeEvent,opened,"""Add code review comment""",TRUE,2,1708594866565,"""2024-02-22T09:41:06.565Z""",stopwatch
+55,tabChangeEvent,changed,"""Add code review comment""",TRUE,2,1708594866566,"""2024-02-22T09:41:06.566Z""",stopwatch
+56,tabChangeEvent,closed,"""Add code review comment""",FALSE,2,1708594921561,"""2024-02-22T09:42:01.561Z""",stopwatch
+58,tabChangeEvent,changed,"""Add code review comment""",TRUE,2,1708594969510,"""2024-02-22T09:42:49.510Z""",stopwatch
+57,tabChangeEvent,opened,"""Add code review comment""",TRUE,2,1708594969510,"""2024-02-22T09:42:49.510Z""",stopwatch
+59,tabChangeEvent,closed,"""Add code review comment""",FALSE,2,1708595066079,"""2024-02-22T09:44:26.079Z""",stopwatch
+60,tabChangeEvent,opened,"""Edit code review comment""",TRUE,2,1708595072391,"""2024-02-22T09:44:32.391Z""",stopwatch
+61,tabChangeEvent,changed,"""Edit code review comment""",TRUE,2,1708595072391,"""2024-02-22T09:44:32.391Z""",stopwatch
+62,tabChangeEvent,closed,"""Edit code review comment""",FALSE,2,1708595182412,"""2024-02-22T09:46:22.412Z""",stopwatch
+63,tabChangeEvent,opened,"""Add code review comment""",TRUE,2,1708595205791,"""2024-02-22T09:46:45.791Z""",stopwatch
+64,tabChangeEvent,changed,"""Add code review comment""",TRUE,2,1708595205791,"""2024-02-22T09:46:45.791Z""",stopwatch
+65,tabChangeEvent,closed,"""Add code review comment""",FALSE,2,1708595275493,"""2024-02-22T09:47:55.493Z""",stopwatch
+66,tabChangeEvent,opened,"""Add code review comment""",TRUE,2,1708595344424,"""2024-02-22T09:49:04.424Z""",stopwatch
+67,tabChangeEvent,changed,"""Add code review comment""",TRUE,2,1708595344424,"""2024-02-22T09:49:04.424Z""",stopwatch
+68,tabChangeEvent,closed,"""Add code review comment""",FALSE,2,1708595426095,"""2024-02-22T09:50:26.095Z""",stopwatch
+69,tabChangeEvent,closed,"""StopWatch.py""",FALSE,1,1708595447919,"""2024-02-22T09:50:47.919Z""",stopwatch
+70,tabChangeEvent,opened,"""main.py""",TRUE,1,1708595447920,"""2024-02-22T09:50:47.920Z""",stopwatch
+71,tabChangeEvent,changed,"""main.py""",TRUE,1,1708595447920,"""2024-02-22T09:50:47.920Z""",stopwatch
+72,tabChangeEvent,closed,"""main.py""",FALSE,1,1708595453090,"""2024-02-22T09:50:53.090Z""",stopwatch
+73,tabChangeEvent,opened,"""StopWatch.py""",TRUE,1,1708595453091,"""2024-02-22T09:50:53.091Z""",stopwatch
+74,tabChangeEvent,changed,"""StopWatch.py""",TRUE,1,1708595453092,"""2024-02-22T09:50:53.092Z""",stopwatch
+76,tabChangeEvent,changed,"""Add code review comment""",TRUE,2,1708595457405,"""2024-02-22T09:50:57.405Z""",stopwatch
+75,tabChangeEvent,opened,"""Add code review comment""",TRUE,2,1708595457405,"""2024-02-22T09:50:57.405Z""",stopwatch
+77,tabChangeEvent,closed,"""Add code review comment""",FALSE,2,1708595476311,"""2024-02-22T09:51:16.311Z""",stopwatch
+79,tabChangeEvent,changed,"""Add code review comment""",TRUE,2,1708595492181,"""2024-02-22T09:51:32.181Z""",stopwatch
+78,tabChangeEvent,opened,"""Add code review comment""",TRUE,2,1708595492181,"""2024-02-22T09:51:32.181Z""",stopwatch
+80,tabChangeEvent,closed,"""Add code review comment""",FALSE,2,1708595539338,"""2024-02-22T09:52:19.338Z""",stopwatch
+81,tabChangeEvent,opened,"""Edit code review comment""",TRUE,2,1708595542550,"""2024-02-22T09:52:22.550Z""",stopwatch
+82,tabChangeEvent,changed,"""Edit code review comment""",TRUE,2,1708595542550,"""2024-02-22T09:52:22.550Z""",stopwatch
+83,tabChangeEvent,closed,"""Edit code review comment""",FALSE,2,1708595547415,"""2024-02-22T09:52:27.415Z""",stopwatch
+84,tabChangeEvent,opened,"""Add code review comment""",TRUE,2,1708595599141,"""2024-02-22T09:53:19.141Z""",stopwatch
+85,tabChangeEvent,changed,"""Add code review comment""",TRUE,2,1708595599141,"""2024-02-22T09:53:19.141Z""",stopwatch
+86,tabChangeEvent,closed,"""Add code review comment""",FALSE,2,1708595659543,"""2024-02-22T09:54:19.543Z""",stopwatch
+87,tabChangeEvent,opened,"""Add code review comment""",TRUE,2,1708595781781,"""2024-02-22T09:56:21.781Z""",stopwatch
+88,tabChangeEvent,changed,"""Add code review comment""",TRUE,2,1708595781781,"""2024-02-22T09:56:21.781Z""",stopwatch
+89,tabChangeEvent,closed,"""Add code review comment""",FALSE,2,1708595869072,"""2024-02-22T09:57:49.072Z""",stopwatch
+91,tabChangeEvent,changed,"""Add code review comment""",TRUE,2,1708595876615,"""2024-02-22T09:57:56.615Z""",stopwatch
+90,tabChangeEvent,opened,"""Add code review comment""",TRUE,2,1708595876615,"""2024-02-22T09:57:56.615Z""",stopwatch
+92,tabChangeEvent,closed,"""Add code review comment""",FALSE,2,1708595915837,"""2024-02-22T09:58:35.837Z""",stopwatch
+0,tabChangeEvent,opened,"""Add code review comment""",TRUE,2,1708596171906,"""2024-02-22T10:02:51.906Z""",stopwatch
+1,tabChangeEvent,changed,"""Add code review comment""",TRUE,2,1708596171907,"""2024-02-22T10:02:51.907Z""",stopwatch
+2,tabChangeEvent,closed,"""Add code review comment""",FALSE,2,1708596229348,"""2024-02-22T10:03:49.348Z""",stopwatch
+3,tabChangeEvent,opened,"""Add code review comment""",TRUE,2,1708596264781,"""2024-02-22T10:04:24.781Z""",stopwatch
+4,tabChangeEvent,changed,"""Add code review comment""",TRUE,2,1708596264781,"""2024-02-22T10:04:24.781Z""",stopwatch
+5,tabChangeEvent,closed,"""Add code review comment""",FALSE,2,1708596504219,"""2024-02-22T10:08:24.219Z""",stopwatch
+6,tabChangeEvent,closed,"""StopWatch.py""",TRUE,1,1708596567691,"""2024-02-22T10:09:27.691Z""",stopwatch
+7,tabChangeEvent,opened,"""main.py""",FALSE,1,1708596567692,"""2024-02-22T10:09:27.692Z""",stopwatch
+8,tabChangeEvent,changed,"""main.py""",FALSE,1,1708596567693,"""2024-02-22T10:09:27.693Z""",stopwatch
+9,tabChangeEvent,changed,"""main.py""",FALSE,1,1708596567830,"""2024-02-22T10:09:27.830Z""",stopwatch
+10,tabChangeEvent,opened,"""StopWatch.py""",TRUE,1,1708596583319,"""2024-02-22T10:09:43.319Z""",stopwatch
+11,tabChangeEvent,changed,"""StopWatch.py""",TRUE,1,1708596583320,"""2024-02-22T10:09:43.320Z""",stopwatch
+12,tabChangeEvent,changed,"""main.py""",FALSE,1,1708596600462,"""2024-02-22T10:10:00.462Z""",stopwatch
+13,tabChangeEvent,changed,"""StopWatch.py""",TRUE,1,1708596605979,"""2024-02-22T10:10:05.979Z""",stopwatch
+14,tabChangeEvent,opened,"""Add code review comment""",TRUE,2,1708596612247,"""2024-02-22T10:10:12.247Z""",stopwatch
+15,tabChangeEvent,changed,"""Add code review comment""",TRUE,2,1708596612247,"""2024-02-22T10:10:12.247Z""",stopwatch
+16,tabChangeEvent,closed,"""Add code review comment""",FALSE,2,1708596658726,"""2024-02-22T10:10:58.726Z""",stopwatch
+17,tabChangeEvent,changed,"""main.py""",TRUE,1,1708596659650,"""2024-02-22T10:10:59.650Z""",stopwatch
+20,tabChangeEvent,changed,"""StopWatch.py""",TRUE,1,1708596661849,"""2024-02-22T10:11:01.849Z""",stopwatch
+21,tabChangeEvent,closed,"""main.py""",FALSE,1,1708596661849,"""2024-02-22T10:11:01.849Z""",stopwatch
+22,tabChangeEvent,opened,"""Edit code review comment""",TRUE,2,1708596679855,"""2024-02-22T10:11:19.855Z""",stopwatch
+23,tabChangeEvent,changed,"""Edit code review comment""",TRUE,2,1708596679855,"""2024-02-22T10:11:19.855Z""",stopwatch
+25,tabChangeEvent,closed,"""Edit code review comment""",FALSE,2,1708596716573,"""2024-02-22T10:11:56.573Z""",stopwatch
+26,tabChangeEvent,opened,"""Edit code review comment""",TRUE,2,1708596746258,"""2024-02-22T10:12:26.258Z""",stopwatch
+27,tabChangeEvent,changed,"""Edit code review comment""",TRUE,2,1708596746259,"""2024-02-22T10:12:26.259Z""",stopwatch
+29,tabChangeEvent,closed,"""Edit code review comment""",FALSE,2,1708596749797,"""2024-02-22T10:12:29.797Z""",stopwatch
+30,tabChangeEvent,opened,"""Add code review comment""",TRUE,2,1708596856576,"""2024-02-22T10:14:16.576Z""",stopwatch
+31,tabChangeEvent,changed,"""Add code review comment""",TRUE,2,1708596856577,"""2024-02-22T10:14:16.577Z""",stopwatch
+33,tabChangeEvent,closed,"""Add code review comment""",FALSE,2,1708596882413,"""2024-02-22T10:14:42.413Z""",stopwatch
+34,tabChangeEvent,opened,"""Add code review comment""",TRUE,2,1708596934929,"""2024-02-22T10:15:34.929Z""",stopwatch
+35,tabChangeEvent,changed,"""Add code review comment""",TRUE,2,1708596934930,"""2024-02-22T10:15:34.930Z""",stopwatch
+37,tabChangeEvent,closed,"""Add code review comment""",FALSE,2,1708596973460,"""2024-02-22T10:16:13.460Z""",stopwatch
+38,tabChangeEvent,changed,"""StopWatch.py""",FALSE,1,1708597019892,"""2024-02-22T10:16:59.892Z""",stopwatch

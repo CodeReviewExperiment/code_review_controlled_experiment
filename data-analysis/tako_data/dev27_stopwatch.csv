@@ -1,0 +1,21 @@
+,event_type,operation,label,view_column,time,date,project
+16,tabChangeEvent,opened,"""StopWatch.java""_1",1,1709668749168,"""2024-03-05T19:59:09.168Z""",stopwatch
+18,tabChangeEvent,opened,"""Add code review comment""_2",2,1709668749168,"""2024-03-05T19:59:09.168Z""",stopwatch
+19,tabChangeEvent,closed,"""Add code review comment""_2",2,1709668860170,"""2024-03-05T20:01:00.170Z""",stopwatch
+20,tabChangeEvent,opened,"""Edit code review comment""_2",2,1709668886593,"""2024-03-05T20:01:26.593Z""",stopwatch
+23,tabChangeEvent,closed,"""Edit code review comment""_2",2,1709668919479,"""2024-03-05T20:01:59.479Z""",stopwatch
+0,tabChangeEvent,opened,"""Add code review comment""_2",2,1709670870195,"""2024-03-05T20:34:30.195Z""",stopwatch
+1,tabChangeEvent,closed,"""Add code review comment""_2",2,1709670926322,"""2024-03-05T20:35:26.322Z""",stopwatch
+3,tabChangeEvent,opened,"""Edit code review comment""_2",2,1709671349534,"""2024-03-05T20:42:29.534Z""",stopwatch
+4,tabChangeEvent,closed,"""Edit code review comment""_2",2,1709671358028,"""2024-03-05T20:42:38.028Z""",stopwatch
+5,tabChangeEvent,opened,"""Edit code review comment""_2",2,1709671376381,"""2024-03-05T20:42:56.381Z""",stopwatch
+6,tabChangeEvent,closed,"""Edit code review comment""_2",2,1709671687768,"""2024-03-05T20:48:07.768Z""",stopwatch
+7,tabChangeEvent,opened,"""Edit code review comment""_2",2,1709672137399,"""2024-03-05T20:55:37.399Z""",stopwatch
+8,tabChangeEvent,closed,"""Edit code review comment""_2",2,1709672141693,"""2024-03-05T20:55:41.693Z""",stopwatch
+9,tabChangeEvent,opened,"""Edit code review comment""_2",2,1709672156250,"""2024-03-05T20:55:56.250Z""",stopwatch
+10,tabChangeEvent,closed,"""Edit code review comment""_2",2,1709672163218,"""2024-03-05T20:56:03.218Z""",stopwatch
+11,tabChangeEvent,opened,"""Edit code review comment""_2",2,1709672171105,"""2024-03-05T20:56:11.105Z""",stopwatch
+12,tabChangeEvent,closed,"""Edit code review comment""_2",2,1709672185750,"""2024-03-05T20:56:25.750Z""",stopwatch
+13,tabChangeEvent,opened,"""Edit code review comment""_2",2,1709672189563,"""2024-03-05T20:56:29.563Z""",stopwatch
+14,tabChangeEvent,closed,"""Edit code review comment""_2",2,1709672214012,"""2024-03-05T20:56:54.012Z""",stopwatch
+16,tabChangeEvent,closed,"""StopWatch.java""_1",1,1709672248587,"""2024-03-05T20:57:28.587Z""",stopwatch
