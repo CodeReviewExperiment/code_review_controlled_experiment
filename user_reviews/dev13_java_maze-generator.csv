@@ -1,9 +1,0 @@
-filename,lines,title,comment
-/src/main/java/org/crprojects/Maze.java,43:18-43:26,,"In the toString() method, using StringBuilder is a more efficient way of creating a string than using String concatenation in loops, which is good. However, result += ... is still used for concatenating rows; it would be more efficient to use the StringBuilder here as well."
-/cr-study-2024/java/maze-generator/src/main/java/org/crprojects/Maze.java,57:38-57:38,,"I would add some blank lines to separate the various parts of the code a little, because this is not very readable"
-/cr-study-2024/java/maze-generator/src/main/java/org/crprojects/Maze.java,60:30-60:52,,I would extract this into a separate variable for clarity
-/cr-study-2024/java/maze-generator/src/main/java/org/crprojects/Maze.java,68:34-68:55,,"Again, I would extract this into a separate variable for clarity"
-/cr-study-2024/java/maze-generator/src/main/java/org/crprojects/Maze.java,115:16-115:93,,"Extract this long condition into multiple smaller ones, so that it's easier to understand what's being checked"
-/cr-study-2024/java/maze-generator/src/main/java/org/crprojects/Maze.java,130:27-130:34,,"This method could be named better, becase ""between"" is a little general and it doesn't do what first came to my mind (checking whether a value is between n1 and n2)"
-/cr-study-2024/java/maze-generator/src/main/java/org/crprojects/Maze.java,140:0-141:19,,Shouldn't the dy of north and south be the other way around? North with dy = 1 and south with dy = -1
-/cr-study-2024/java/maze-generator/src/main/java/org/crprojects/Maze.java,140:0-143:20,,"I would personally write the enum options in full (NORTH instead of N, SOUTH instead of S, etc.). Just for sake of clarity and readability"

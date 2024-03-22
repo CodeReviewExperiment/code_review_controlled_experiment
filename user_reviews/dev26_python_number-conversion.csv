@@ -1,4 +1,0 @@
-filename,lines,title,comment
-/number_conversion.py,30:0-31:17,,Maybe an error message specifying that the format given is not supported would give a better feedback to the function's user.
-/number_conversion.py,45:0-46:79,,"According to the function definition and the above check, the error message should rather be: 'Invalid input. Input must be greater than 0, and less or equal than 4000'\n\nMoreover, the number should be 0 < number <= 4000, as there is no representation of 0 in Roman Numeral."
-/number_conversion.py,36:8-36:64,,"This is wrong, as we are using HEXADECIMAL, the base number is 16 not 8. This error could have been spotted in the unit tests if those were more precise (since it only numbers between 1 and 7 were tested for the conversion for both OCTA and HEXA, hence giving the same result)."

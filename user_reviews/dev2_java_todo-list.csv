@@ -1,8 +1,0 @@
-filename,lines,title,comment
-/src/main/java/org/crprojects/TodoListApp.java,41:16-41:33,,I'd prefer the name `toggleTaskStatus` to the current one. 
-/src/main/java/org/crprojects/TodoListApp.java,30:16-30:23,,Have you considered to change the signature of this method to return a reference to the newly created Task? Same for the delete method.
-/src/main/java/org/crprojects/TodoListApp.java,82:12-93:23,,I don't like much this implementation as it is not flexible. E.g.: what if I the sort by date has to be reversed?
-/src/main/java/org/crprojects/TodoListApp.java,44:12-50:13,,for readability you can rewrite this in a single line as\n\n```\ntask.done = !task.done;\n```\n\neven better would be to implement the method inside the Task class for separation of concerns as this class already handles inputs and outputs and it also handles the list.
-/src/main/java/org/crprojects/TodoListApp.java,143:33-143:87,,might be worth to put all your literal in a dedicated class/variable instead of repeating them.
-/src/main/java/org/crprojects/TodoListApp.java,99:11-100:98,,Have you considered implementing a `toString()` method directly in the `Task` class?
-/src/main/java/org/crprojects/TodoListApp.java,193:4-193:21,,"Why an inner static class? You are not accessing any of the enclosing class attributes. Also, consider to use getters/setters instead of direct state modification from enclosing class. It can help reducing class coupling."

@@ -1,7 +1,0 @@
-filename,lines,title,comment
-/maze_generator.py,33:4-33:7,,Variable name is not descriptive enough. Use a meaningful word instead.
-/maze_generator.py,34:4-34:7,,Variable name is not descriptive enough. Use a meaningful word instead.
-/maze_generator.py,35:4-35:7,,Variable name is not descriptive enough. Use a meaningful word instead.
-/maze_generator.py,4:14-4:15,,Variable name is not descriptive enough. Use a meaningful word instead.
-/maze_generator.py,4:19-4:20,,Variable name is not descriptive enough. Use a meaningful word instead.
-/maze_generator.py,72:4-72:5,,Variable name is not descriptive enough. Use a meaningful word instead.

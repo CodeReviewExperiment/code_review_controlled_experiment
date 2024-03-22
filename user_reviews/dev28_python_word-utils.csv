@@ -1,5 +1,0 @@
-filename,lines,title,comment
-/cr-study-2024/python/word-utils/WordUtils.py,143:8-143:8,,not sure about this. please add an explanation
-/cr-study-2024/python/word-utils/WordUtils.py,295:0-296:0,,also here clarify what's happening with delimiters
-/cr-study-2024/python/word-utils/WordUtils.py,341:8-341:17,,what is this needed for?
-/cr-study-2024/python/word-utils/WordUtils.py,409:8-409:117,,"same as before, this starts looking duplicated code?"

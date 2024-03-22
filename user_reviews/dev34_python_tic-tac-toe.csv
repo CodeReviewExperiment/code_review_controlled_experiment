@@ -1,8 +1,0 @@
-filename,lines,title,comment
-/tic_tac_toe.py,90:8-90:9,Better variable name,"Use a better variable name (e.g., sequence) to improve understandability"
-/tic_tac_toe.py,111:0-115:25,Duplicate code could be refactored,This check for winning condition is duplicated across the loop. Consider using extract method refactoring
-/tic_tac_toe.py,87:8-87:76,Print Board method,Print board could be a method to improve maintainability
-/tic_tac_toe.py,113:63-113:63,Not the best strategy,"The implemented algorithm does not appear to choose the best approach. The best first move in tic-tac-toe is to choose the center position (if available). As a matter of fact, in one game I was able to win since the algorithm did not choose the center position. The functional requirements in the main describe this as ""CLI against an agent that is programmed to not lose."""
-/tic_tac_toe.py,44:0-46:43,Not best strategy,"This method does not implement a strategy that always ties/wins. The best strategy involves choosing the center position if available in the first turn. As a matter of fact, I won against this algorithm when it chose a first position that was not center. This contrasts with what is written in the main as the functional requirement: ""CLI against an agent that is programmed to not lose."""
-/tic_tac_toe.py,55:4-55:15,Return type mismatch int instead of str,"The method returns an int, but the doctstring claims it's a str"
-/tic_tac_toe.py,76:4-76:17,Mismatch with 0-indexed,"The method returns the choice as the index 0-indexed in the board, but in the tests it is assumed to be the 1-indexed choice. This breaks tests"

@@ -1,8 +1,0 @@
-filename,lines,title,comment
-/todo_list.py,195:4-195:21,,"The Sort enum's members are created using functools.partial, which is a bit unconventional for readability. Enum values can be lambda functions directly or even better, method references."
-/todo_list.py,79:8-82:72,Improve understandability,The list_tasks method can have the sorting logic refactored to a separate method for clarity.
-/todo_list.py,130:16-130:22,,The exit() call in the interact_with_app method will globally exit Python and may not be desirable if the TodoListApp is to be used as part of a larger program. Consider raising an exception or setting a flag to break from the loop.
-/todo_list.py,168:12-176:94,Date Formatting,Representation of the task's creation date might benefit from a formatted string for better readability.
-/todo_list.py,193:16-193:68,,"The exit case in the Option enum's __str__ method raises a NotImplementedError as a default case. A default case in an Enum's __str__ method may not be necessary, and this behavior could be confusing."
-/todo_list.py,89:4-89:43,Improve error handling for robustness,The method does not gracefully handle the incorrect input from the user.
-/todo_list.py,41:8-41:41,Negative index error handling,There's no error handling for user index that is negative.

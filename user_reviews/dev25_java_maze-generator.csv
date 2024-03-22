@@ -1,5 +1,0 @@
-filename,lines,title,comment
-/cr-study-2024/java/maze-generator/src/main/java/org/crprojects/Maze.java,43:4-43:4,String concatenation,Use StringBuilder instead of String concatanation to improve efficiency in larger mazes.
-/cr-study-2024/java/maze-generator/src/main/java/org/crprojects/Maze.java,68:33-68:62,Readibility of bitwise operator &,Not all developer are confident with the bitwise operator. Java JIT should be able to optimize the code and transform it in a bitwise operator. 
-/cr-study-2024/java/maze-generator/src/main/java/org/crprojects/Maze.java,86:59-86:59,source of error in exception,Add the invalid value to the message body of the exception to help debug the code and to help user.
-/cr-study-2024/java/maze-generator/src/main/java/org/crprojects/Maze.java,113:16-113:16,Descriptive variable names,Try to refactor the name of the variables to understand better the code. What does the 'n' mean? Nord?

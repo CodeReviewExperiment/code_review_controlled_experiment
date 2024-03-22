@@ -1,7 +1,0 @@
-filename,lines,title,comment
-/cr-study-2024/java/todo-list/src/main/java/org/crprojects/TodoListApp.java,41:18-41:18,,Consider renaming this method to `toggleTaskStatus`
-/cr-study-2024/java/todo-list/src/main/java/org/crprojects/TodoListApp.java,14:27-14:27,,Why do you expose the tasks state? I think this could be a private field
-/cr-study-2024/java/todo-list/src/main/java/org/crprojects/TodoListApp.java,75:24-75:24,,Consider allowing the user to also type the first letter of a category (p) instead of always the full name (priority).
-/cr-study-2024/java/todo-list/src/main/java/org/crprojects/TodoListApp.java,195:24-195:24,,Is there any restriction on this? Can it be negative?
-/cr-study-2024/java/todo-list/src/main/java/org/crprojects/TodoListApp.java,62:17-62:17,,"Same as `reverseTaskStatus`, this does not check if index is a valid index of the arraylist, since it might be a negative number which would cause an app crash"
-/cr-study-2024/java/todo-list/src/main/java/org/crprojects/TodoListApp.java,42:21-42:21,,"This does not check if index is a valid index of the arraylist, since it might be a negative number which would cause an app crash"

@@ -1,6 +1,0 @@
-filename,lines,title,comment
-/src/main/java/org/crprojects/Maze.java,44:12-44:12,,You could also use StringBuilder here
-/src/main/java/org/crprojects/Maze.java,47:26-47:26,,You could create a closeWall method (to increase readability) that takes in input witdth
-/src/main/java/org/crprojects/Maze.java,85:54-85:54,,"You could change the name of the method to, for example, generate to increase readability"
-/src/main/java/org/crprojects/Maze.java,63:20-63:20,,"To increase readability, a separate method could be created.\n"
-/src/main/java/org/crprojects/Maze.java,66:39-66:39,,A static variablie should be created to indicate the entry/exit of the maze

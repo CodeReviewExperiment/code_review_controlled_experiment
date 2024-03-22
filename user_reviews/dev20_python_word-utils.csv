@@ -1,6 +1,0 @@
-filename,lines,title,comment
-/cr-study-2024/python/word-utils/WordUtils.py,29:42-29:52,,nit: negative (remove the a)
-/cr-study-2024/python/word-utils/WordUtils.py,147:8-157:36,,"callback is a very generic name for the method that implement the case algorithm; cosider using a more descriptive name. Also, the usage of title() instead of uppercase() is a bit confusing. Consider using uppercase of add comments about the use of title()"
-/cr-study-2024/python/word-utils/WordUtils.py,244:42-244:63,,Does this accurately capture differences in case? A test case would be nice to verify that. 
-/cr-study-2024/python/word-utils/WordUtils.py,301:39-301:61,,"This seems to add space as a default delimiter, even if it does not show up in the delimiters param"
-/cr-study-2024/python/word-utils/WordUtils.py,299:12-299:20,,This needs a more appropriate name

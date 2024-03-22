@@ -1,7 +1,0 @@
-filename,lines,title,comment
-/todo_list.py,48:8-48:35,,"Before performing operations, the program ensures that the index is below the size of the task list to prevent errors. Additionally, the program ought to confirm that the index in question is above 0."
-/todo_list.py,63:8-63:35,,"Before performing operations, the program ensures that the index is below the size of the task list to prevent errors. Additionally, the program ought to confirm that the index in question is above 0."
-/todo_list.py,85:23-85:39,,"The correct usage would be enumerate(tasks, start=1) since currently the element indexing begins at 0. This could lead to difficulties for the user when trying to select the appropriate element from the list."
-/cr-study-2024/python/todo-list/todo_list.py,114:5-123:46,,We should exit from this prompt if there are no tasks (instead of waiting for another input that will give an error in that case)
-/cr-study-2024/python/todo-list/todo_list.py,108:0-109:0,,"With this constructor we will raise a ValueError if the given option does not exist (e.g., 7) which will exit the program and never go to the last choice in the match below."
-/cr-study-2024/python/todo-list/todo_list.py,117:0-118:0,,This message is misleading the user currently if they are an IT person and expect the index to start at 0. See also the comment on line 85 which might help to counteract this.
