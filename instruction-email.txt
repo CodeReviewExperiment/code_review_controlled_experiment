@@ -1,0 +1,32 @@
+Dear [*NAME*],
+
+Thank you for accepting to participate in our code review study. Your work is very much appreciated and it will be very valuable for our research.
+
+In this email, you find instructions to access the server and complete the code reviews assigned to you.
+
+Accessing the server
+
+To perform the code reviews, you need to use Visual Studio Code. Visual Studio Code offers a plugin for remote development called Remote - SSH. You need this plugin to access the server where you will complete your code reviews.
+
+To access the server, you need to connect via SSH through Visual Studio Code. Simply open the Remote plugin tab on Visual Studio Code, add a new connection and type the following command:
+
+ssh devXX@[*SERVER_NAME*]
+
+As you can see, you have been assigned the user devXX. When prompted for the password, type the following:
+
+[*PASSWORD*]
+
+Instructions for the code review
+1. Once logged in, you can start your code review assignments, in one or multiple sessions.
+2. The projects to review are located under ~/cr-study-2024/<language>/<project>/. You should see three different projects.
+3. For each project, you should see a README.md file. Make sure to read it at least for one project, since it contains information about where to find a description of the project to review, and how to use the code review plugin in Visual Studio Code.
+4. IMPORTANT: For the code review plugin to work properly, you need to perform the code reviews by opening either the home folder (~/) or the project folder (~/cr-study-2024/<language>/<project>/). The code review plugin will NOT work if you open a different folder (e.g., ~/cr-study-2024/ or ~/cr-study-2024/<language>/).
+
+Rating the confidence of your review
+
+When you finish reviewing a project, please make sure to rate how confident you are about your review. Simply write the confidence (from 1 to 5) in the README.md file under the root project folder.
+
+If you have any questions, feel free to reach out. Thank you again for your contribution.
+
+Happy reviewing!
+[*YOUR_NAME*]
