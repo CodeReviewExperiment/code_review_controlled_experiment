@@ -1,0 +1,25 @@
+Dear [*NAME*],
+
+We are conducting an experiment related to code review automation and would like to ask for your participation. Following you will find more details and a link to a Google form through which you can accept/decline our invitation. If you are not familiar with code review and/or with Java and Python (at least one of the two programming languages is required) you can skip the rest of the email, we just ask you to please answer the survey by declining our invitation, this will help us tracking invitations.
+ 
+**About the Experiment**
+
+The goal of the experiment is to understand how to improve the code review process via automated support. You will be asked to review three programs (written in Java or Python, depending on your choice) ranging between 75 and 528 lines of code. 
+
+For some of these code reviews, you may find an automatically generated code review which you can use at your own discretion. 
+
+In all three cases, we expect you to submit a code review which may include both issues manually and automatically identified (again, if you identify issues).  
+
+We expect each code review to take approximately between 15 and 30 minutes. You can do the three reviews all together or in three separated rounds but please do not stop doing a code review for one project once you start.
+
+**Answer to our invitation**
+
+Please reply to our invitation by February 26, 2024: [*LINK*]. Upon confirmation, we will send you detailed information about the experiment.
+
+All collected data will be treated anonymously and analyzed for a scientific publication. 
+
+Thank you for considering this invitation. For any further questions or additional information, please feel free to contact me.
+
+Best,
+
+[*YOUR NAME*] 
