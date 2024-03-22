@@ -1,0 +1,7 @@
+{
+    "python.defaultInterpreterPath": "/home/cr-study-2024/dev37/venv/bin/python",
+    "java.jdt.ls.java.home": "/home/cr-study-2024/common/jdk-17.0.10+7",
+    "java.server.launchMode": "Standard",
+    "tako.dataRecordingConsent": "Enable",
+    "code-review.codeSelectionBackgroundColor": "rgba(255, 213, 0, 0.5)"
+}
