@@ -1,0 +1,12 @@
+/cr-study-2024/java/tic-tac-toe
+/cr-study-2024/java/maze-generator
+/cr-study-2024/java/number-conversion
+/cr-study-2024/java/stopwatch
+/cr-study-2024/java/todo-list
+/cr-study-2024/java/word-utils
+/cr-study-2024/python/tic-tac-toe
+/cr-study-2024/python/maze-generator
+/cr-study-2024/python/number-conversion
+/cr-study-2024/python/stopwatch
+/cr-study-2024/python/todo-list
+/cr-study-2024/python/word-utils
