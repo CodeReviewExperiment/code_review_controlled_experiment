@@ -9,4 +9,6 @@ Replication Package of the paper:
 
 `server_setup` : this folder contains the Visual Studio code infrastructure setup we used to run the experiment.
 
+`injected_issues.xlsx` : the list of injected issues (with impacted code lines and issue type) in both Java and Python projects.
+
 `invitation-email.txt`, `instruction-email.txt` : invitation and instruction emails for participants.
