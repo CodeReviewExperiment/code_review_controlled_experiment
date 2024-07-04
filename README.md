@@ -11,4 +11,4 @@ Replication Package of the paper:
 
 `injected_issues.xlsx` : the list of injected issues (with impacted code lines and issue type) in both Java and Python projects.
 
-`invitation-email.txt`, `instruction-email.txt` : invitation and instruction emails for participants.
+`invitation-email.txt`, `instruction-email.txt`, `pre-screening_questions.txt` : invitation and instruction emails and the four pre-screening questions for participants.
