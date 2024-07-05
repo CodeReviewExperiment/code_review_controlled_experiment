@@ -1,12 +1,14 @@
-Please check the programming languages in which you have expertise (check both of them if you are familiar with both)
+We are conducting an experiment related to code review automation and would like to ask for your participation. If you are not familiar with code review and/or with Java and Python (at least one of the two programming languages is required) you can just ignore our invitation. Otherwise, please answer the following four questions:
+
+1. Please check the programming languages in which you have expertise (check both of them if you are familiar with both)
 	- Java
 	- Python
 
-How many years of experience do you have in programming?
+2. How many years of experience do you have in programming?
 
-What is your current role or position?
+3. What is your current role or position?
 
-Did you participate in code review in the past?
+4. Did you participate in code review in the past?
 	- No
 	- Yes, as a reviewer
 	- Yes, as a developer whose code was reviewed
