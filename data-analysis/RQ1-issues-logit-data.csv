@@ -1,0 +1,289 @@
+participant-id,years-of-experience,role-in-code-review,programming-language,project,injected-issues,issue-id,issue-type,issue-severity,treatment,Is-injected-issue-identified
+dev1,15,Contributor&Reviewer,Java,maze-generator,1,j1,Evolvability Defect -> Structure -> Solution Approach,2.5,MCR,1
+dev1,15,Contributor&Reviewer,Java,tic-tac-toe,2,j2,Evolvability Defect -> Structure -> Organization,2,ACR,0
+dev1,15,Contributor&Reviewer,Java,tic-tac-toe,2,j3,Evolvability Defect -> Structure -> Organization,2.5,ACR,0
+dev1,15,Contributor&Reviewer,Java,todo-list,3,j4,Evolvability Defect -> Structure -> Solution Approach,2.5,CCR,1
+dev1,15,Contributor&Reviewer,Java,todo-list,3,j5,Functional Defect -> Check,3,CCR,1
+dev1,15,Contributor&Reviewer,Java,todo-list,3,j6,Functional Defect -> Check,3,CCR,1
+dev10,8,Contributor&Reviewer,Python,todo-list,3,p10,Functional Defect -> Check,3,CCR,1
+dev10,8,Contributor&Reviewer,Python,todo-list,3,p11,Functional Defect -> Check,3,CCR,1
+dev10,8,Contributor&Reviewer,Python,todo-list,3,p12,Functional Defect -> Logic,2,CCR,1
+dev10,8,Contributor&Reviewer,Python,stopwatch,4,p13,Evolvability Defect -> Documentation -> Textual,2.5,MCR,1
+dev10,8,Contributor&Reviewer,Python,stopwatch,4,p14,Evolvability Defect -> Documentation -> Textual,2.5,MCR,0
+dev10,8,Contributor&Reviewer,Python,stopwatch,4,p15,Evolvability Defect -> Structure -> Solution Approach,2,MCR,1
+dev10,8,Contributor&Reviewer,Python,stopwatch,4,p16,Evolvability Defect -> Structure -> Solution Approach,2,MCR,0
+dev11,10,Contributor&Reviewer,Java,tic-tac-toe,2,j2,Evolvability Defect -> Documentation -> Textual,1.5,MCR,1
+dev11,10,Contributor&Reviewer,Java,tic-tac-toe,2,j3,Evolvability Defect -> Documentation -> Textual,1.5,MCR,0
+dev11,10,Contributor&Reviewer,Java,todo-list,3,j4,Evolvability Defect -> Structure -> Organization,2,ACR,1
+dev11,10,Contributor&Reviewer,Java,todo-list,3,j5,Functional Defect -> Check,3,ACR,1
+dev11,10,Contributor&Reviewer,Java,todo-list,3,j6,Evolvability Defect -> Structure -> Solution Approach,1.5,ACR,1
+dev11,10,Contributor&Reviewer,Java,word-utils,6,j18,Evolvability Defect -> Documentation -> Textual,1.5,CCR,1
+dev11,10,Contributor&Reviewer,Java,word-utils,6,j19,Evolvability Defect -> Structure -> Solution Approach,1.5,CCR,1
+dev11,10,Contributor&Reviewer,Java,word-utils,6,j20,Evolvability Defect -> Structure -> Organization,2.5,CCR,1
+dev11,10,Contributor&Reviewer,Java,word-utils,6,j21,Evolvability Defect -> Structure -> Solution Approach,2.5,CCR,1
+dev11,10,Contributor&Reviewer,Java,word-utils,6,j22,Functional Defect -> Check,3,CCR,1
+dev11,10,Contributor&Reviewer,Java,word-utils,6,j23,Functional Defect -> Check,3,CCR,1
+dev12,9,Contributor,Python,tic-tac-toe,7,p3,Functional Defect -> Check,3,ACR,0
+dev12,9,Contributor,Python,tic-tac-toe,7,p4,Functional Defect -> Interface,3,ACR,0
+dev12,9,Contributor,Python,tic-tac-toe,7,p5,Evolvability Defect -> Structure -> Organization,2.5,ACR,1
+dev12,9,Contributor,Python,tic-tac-toe,7,p6,Functional Defect -> Logic,2,ACR,0
+dev12,9,Contributor,Python,tic-tac-toe,7,p7,Functional Defect -> Check,3,ACR,1
+dev12,9,Contributor,Python,tic-tac-toe,7,p8,Evolvability Defect -> Structure -> Organization,2.5,ACR,0
+dev12,9,Contributor,Python,tic-tac-toe,7,p9,Evolvability Defect -> Structure -> Organization,2,ACR,1
+dev12,9,Contributor,Python,number-conversion,2,p17,Evolvability Defect -> Structure -> Organization,2,MCR,0
+dev12,9,Contributor,Python,number-conversion,2,p18,Evolvability Defect -> Structure -> Organization,2.5,MCR,1
+dev13,10,Contributor&Reviewer,Java,number-conversion,4,j7,Evolvability Defect -> Documentation -> Textual,3,ACR,1
+dev13,10,Contributor&Reviewer,Java,number-conversion,4,j8,Evolvability Defect -> Documentation -> Textual,2.5,ACR,0
+dev13,10,Contributor&Reviewer,Java,number-conversion,4,j9,Evolvability Defect -> Structure -> Solution Approach,2,ACR,1
+dev13,10,Contributor&Reviewer,Java,number-conversion,4,j10,Evolvability Defect -> Documentation -> Textual,2,ACR,1
+dev13,10,Contributor&Reviewer,Java,stopwatch,7,j11,Evolvability Defect -> Documentation -> Textual,2,MCR,0
+dev13,10,Contributor&Reviewer,Java,stopwatch,7,j12,Evolvability Defect -> Documentation -> Textual,2,MCR,1
+dev13,10,Contributor&Reviewer,Java,stopwatch,7,j13,Evolvability Defect -> Structure -> Solution Approach,2,MCR,1
+dev13,10,Contributor&Reviewer,Java,stopwatch,7,j14,Evolvability Defect -> Documentation -> Supported by Language,1,MCR,1
+dev13,10,Contributor&Reviewer,Java,stopwatch,7,j15,Functional Defect -> Interface,3,MCR,1
+dev13,10,Contributor&Reviewer,Java,stopwatch,7,j16,Functional Defect -> Check,3,MCR,1
+dev13,10,Contributor&Reviewer,Java,stopwatch,7,j17,Evolvability Defect -> Documentation -> Textual,2,MCR,0
+dev14,5,Contributor&Reviewer,Python,maze-generator,2,p1,Functional Defect -> Check,2.5,CCR,1
+dev14,5,Contributor&Reviewer,Python,maze-generator,2,p2,Evolvability Defect -> Documentation -> Textual,2.5,CCR,1
+dev14,5,Contributor&Reviewer,Python,number-conversion,2,p17,Evolvability Defect -> Documentation -> Textual,2.5,ACR,1
+dev14,5,Contributor&Reviewer,Python,number-conversion,2,p18,Evolvability Defect -> Structure -> Solution Approach,2,ACR,1
+dev14,5,Contributor&Reviewer,Python,stopwatch,4,p13,Evolvability Defect -> Structure -> Solution Approach,2,MCR,0
+dev14,5,Contributor&Reviewer,Python,stopwatch,4,p14,Functional Defect -> Check,3,MCR,0
+dev14,5,Contributor&Reviewer,Python,stopwatch,4,p15,Functional Defect -> Interface,3,MCR,0
+dev14,5,Contributor&Reviewer,Python,stopwatch,4,p16,Evolvability Defect -> Documentation -> Textual,2,MCR,0
+dev15,5,Contributor&Reviewer,Java,number-conversion,4,j7,Evolvability Defect -> Documentation -> Textual,3,CCR,1
+dev15,5,Contributor&Reviewer,Java,number-conversion,4,j8,Functional Defect -> Interface,3,CCR,1
+dev15,5,Contributor&Reviewer,Java,number-conversion,4,j9,Functional Defect -> Check,3,CCR,1
+dev15,5,Contributor&Reviewer,Java,number-conversion,4,j10,Evolvability Defect -> Documentation -> Textual,2,CCR,1
+dev16,5,Reviewer,Python,number-conversion,2,p17,Evolvability Defect -> Documentation -> Textual,2.5,CCR,1
+dev16,5,Reviewer,Python,number-conversion,2,p18,Evolvability Defect -> Documentation -> Textual,2.5,CCR,1
+dev16,5,Reviewer,Python,stopwatch,4,p13,Evolvability Defect -> Structure -> Solution Approach,2,ACR,0
+dev16,5,Reviewer,Python,stopwatch,4,p14,Evolvability Defect -> Structure -> Solution Approach,2,ACR,0
+dev16,5,Reviewer,Python,stopwatch,4,p15,Functional Defect -> Check,3,ACR,0
+dev16,5,Reviewer,Python,stopwatch,4,p16,Functional Defect -> Interface,3,ACR,1
+dev16,5,Reviewer,Python,tic-tac-toe,7,p3,Evolvability Defect -> Structure -> Organization,2.5,MCR,0
+dev16,5,Reviewer,Python,tic-tac-toe,7,p4,Functional Defect -> Logic,2,MCR,0
+dev16,5,Reviewer,Python,tic-tac-toe,7,p5,Functional Defect -> Check,3,MCR,0
+dev16,5,Reviewer,Python,tic-tac-toe,7,p6,Evolvability Defect -> Structure -> Organization,2.5,MCR,1
+dev16,5,Reviewer,Python,tic-tac-toe,7,p7,Evolvability Defect -> Structure -> Organization,2,MCR,1
+dev16,5,Reviewer,Python,tic-tac-toe,7,p8,Evolvability Defect -> Structure -> Organization,2,MCR,1
+dev16,5,Reviewer,Python,tic-tac-toe,7,p9,Evolvability Defect -> Structure -> Organization,2.5,MCR,1
+dev20,10,Contributor&Reviewer,Python,tic-tac-toe,7,p3,Functional Defect -> Check,3,CCR,1
+dev20,10,Contributor&Reviewer,Python,tic-tac-toe,7,p4,Functional Defect -> Check,3,CCR,1
+dev20,10,Contributor&Reviewer,Python,tic-tac-toe,7,p5,Functional Defect -> Logic,2,CCR,1
+dev20,10,Contributor&Reviewer,Python,tic-tac-toe,7,p6,Functional Defect -> Check,1.5,CCR,1
+dev20,10,Contributor&Reviewer,Python,tic-tac-toe,7,p7,Evolvability Defect -> Structure -> Solution Approach,2,CCR,1
+dev20,10,Contributor&Reviewer,Python,tic-tac-toe,7,p8,Evolvability Defect -> Structure -> Solution Approach,2,CCR,1
+dev20,10,Contributor&Reviewer,Python,tic-tac-toe,7,p9,Evolvability Defect -> Documentation -> Textual,1.5,CCR,1
+dev20,10,Contributor&Reviewer,Python,word-utils,7,p19,Evolvability Defect -> Documentation -> Textual,1.5,MCR,0
+dev20,10,Contributor&Reviewer,Python,word-utils,7,p20,Evolvability Defect -> Documentation -> Textual,1.5,MCR,0
+dev20,10,Contributor&Reviewer,Python,word-utils,7,p21,Evolvability Defect -> Documentation -> Textual,1.5,MCR,0
+dev20,10,Contributor&Reviewer,Python,word-utils,7,p22,Evolvability Defect -> Structure -> Organization,2.5,MCR,0
+dev20,10,Contributor&Reviewer,Python,word-utils,7,p23,Functional Defect -> Logic,2,MCR,0
+dev20,10,Contributor&Reviewer,Python,word-utils,7,p24,Functional Defect -> Check,3,MCR,0
+dev20,10,Contributor&Reviewer,Python,word-utils,7,p25,Evolvability Defect -> Structure -> Organization,2.5,MCR,0
+dev20,10,Contributor&Reviewer,Python,todo-list,3,p10,Evolvability Defect -> Structure -> Organization,2,ACR,1
+dev20,10,Contributor&Reviewer,Python,todo-list,3,p11,Evolvability Defect -> Structure -> Organization,2,ACR,1
+dev20,10,Contributor&Reviewer,Python,todo-list,3,p12,Evolvability Defect -> Structure -> Organization,2.5,ACR,1
+dev21,5,Contributor&Reviewer,Python,maze-generator,2,p1,Functional Defect -> Check,2.5,MCR,1
+dev21,5,Contributor&Reviewer,Python,maze-generator,2,p2,Functional Defect -> Check,1.5,MCR,1
+dev21,5,Contributor&Reviewer,Python,word-utils,7,p19,Evolvability Defect -> Documentation -> Textual,2,ACR,1
+dev21,5,Contributor&Reviewer,Python,word-utils,7,p20,Evolvability Defect -> Structure -> Solution Approach,2,ACR,0
+dev21,5,Contributor&Reviewer,Python,word-utils,7,p21,Evolvability Defect -> Structure -> Solution Approach,2,ACR,0
+dev21,5,Contributor&Reviewer,Python,word-utils,7,p22,Evolvability Defect -> Documentation -> Textual,1.5,ACR,0
+dev21,5,Contributor&Reviewer,Python,word-utils,7,p23,Evolvability Defect -> Documentation -> Textual,1.5,ACR,0
+dev21,5,Contributor&Reviewer,Python,word-utils,7,p24,Evolvability Defect -> Documentation -> Textual,1.5,ACR,0
+dev21,5,Contributor&Reviewer,Python,word-utils,7,p25,Evolvability Defect -> Documentation -> Textual,1.5,ACR,0
+dev23,5,Contributor&Reviewer,Java,maze-generator,1,j1,Evolvability Defect -> Structure -> Solution Approach,2.5,ACR,1
+dev23,5,Contributor&Reviewer,Java,number-conversion,4,j7,Evolvability Defect -> Documentation -> Textual,3,MCR,1
+dev23,5,Contributor&Reviewer,Java,number-conversion,4,j8,Evolvability Defect -> Documentation -> Textual,1.5,MCR,1
+dev23,5,Contributor&Reviewer,Java,number-conversion,4,j9,Evolvability Defect -> Documentation -> Textual,1.5,MCR,0
+dev23,5,Contributor&Reviewer,Java,number-conversion,4,j10,Functional Defect -> Check,3,MCR,0
+dev23,5,Contributor&Reviewer,Java,word-utils,6,j18,Evolvability Defect -> Structure -> Solution Approach,1.5,CCR,1
+dev23,5,Contributor&Reviewer,Java,word-utils,6,j19,Evolvability Defect -> Documentation -> Textual,1.5,CCR,1
+dev23,5,Contributor&Reviewer,Java,word-utils,6,j20,Evolvability Defect -> Structure -> Solution Approach,1.5,CCR,1
+dev23,5,Contributor&Reviewer,Java,word-utils,6,j21,Functional Defect -> Interface,3,CCR,1
+dev23,5,Contributor&Reviewer,Java,word-utils,6,j22,Functional Defect -> Check,3,CCR,1
+dev23,5,Contributor&Reviewer,Java,word-utils,6,j23,Evolvability Defect -> Documentation -> Textual,2,CCR,1
+dev25,5,Contributor&Reviewer,Java,maze-generator,1,j1,Evolvability Defect -> Structure -> Solution Approach,2.5,MCR,1
+dev25,5,Contributor&Reviewer,Java,number-conversion,4,j7,Evolvability Defect -> Documentation -> Textual,3,ACR,1
+dev25,5,Contributor&Reviewer,Java,number-conversion,4,j8,Evolvability Defect -> Documentation -> Textual,2.5,ACR,1
+dev25,5,Contributor&Reviewer,Java,number-conversion,4,j9,Evolvability Defect -> Structure -> Solution Approach,2,ACR,1
+dev25,5,Contributor&Reviewer,Java,number-conversion,4,j10,Evolvability Defect -> Documentation -> Textual,2,ACR,0
+dev25,5,Contributor&Reviewer,Java,stopwatch,7,j11,Evolvability Defect -> Documentation -> Textual,2,CCR,1
+dev25,5,Contributor&Reviewer,Java,stopwatch,7,j12,Evolvability Defect -> Documentation -> Textual,2,CCR,1
+dev25,5,Contributor&Reviewer,Java,stopwatch,7,j13,Evolvability Defect -> Structure -> Solution Approach,2,CCR,1
+dev25,5,Contributor&Reviewer,Java,stopwatch,7,j14,Evolvability Defect -> Documentation -> Supported by Language,1,CCR,1
+dev25,5,Contributor&Reviewer,Java,stopwatch,7,j15,Functional Defect -> Interface,3,CCR,1
+dev25,5,Contributor&Reviewer,Java,stopwatch,7,j16,Functional Defect -> Check,3,CCR,1
+dev25,5,Contributor&Reviewer,Java,stopwatch,7,j17,Evolvability Defect -> Documentation -> Textual,2,CCR,1
+dev26,6,Contributor&Reviewer,Python,maze-generator,2,p1,Functional Defect -> Check,2.5,ACR,1
+dev26,6,Contributor&Reviewer,Python,maze-generator,2,p2,Functional Defect -> Check,3,ACR,0
+dev26,6,Contributor&Reviewer,Python,number-conversion,2,p17,Functional Defect -> Interface,3,MCR,1
+dev26,6,Contributor&Reviewer,Python,number-conversion,2,p18,Functional Defect -> Check,1.5,MCR,1
+dev26,6,Contributor&Reviewer,Python,word-utils,7,p19,Evolvability Defect -> Documentation -> Textual,2,CCR,1
+dev26,6,Contributor&Reviewer,Python,word-utils,7,p20,Evolvability Defect -> Structure -> Solution Approach,2,CCR,1
+dev26,6,Contributor&Reviewer,Python,word-utils,7,p21,Evolvability Defect -> Structure -> Solution Approach,2,CCR,1
+dev26,6,Contributor&Reviewer,Python,word-utils,7,p22,Evolvability Defect -> Documentation -> Textual,1.5,CCR,1
+dev26,6,Contributor&Reviewer,Python,word-utils,7,p23,Evolvability Defect -> Documentation -> Textual,1.5,CCR,1
+dev26,6,Contributor&Reviewer,Python,word-utils,7,p24,Evolvability Defect -> Documentation -> Textual,1.5,CCR,1
+dev26,6,Contributor&Reviewer,Python,word-utils,7,p25,Evolvability Defect -> Documentation -> Textual,1.5,CCR,1
+dev27,6,None,Java,number-conversion,4,j7,Evolvability Defect -> Documentation -> Textual,3,MCR,1
+dev27,6,None,Java,number-conversion,4,j8,Evolvability Defect -> Documentation -> Textual,2.5,MCR,1
+dev27,6,None,Java,number-conversion,4,j9,Evolvability Defect -> Structure -> Solution Approach,2,MCR,1
+dev27,6,None,Java,number-conversion,4,j10,Evolvability Defect -> Documentation -> Textual,2,MCR,0
+dev27,6,None,Java,stopwatch,7,j11,Evolvability Defect -> Documentation -> Textual,2,ACR,0
+dev27,6,None,Java,stopwatch,7,j12,Evolvability Defect -> Documentation -> Textual,2,ACR,0
+dev27,6,None,Java,stopwatch,7,j13,Evolvability Defect -> Structure -> Solution Approach,2,ACR,0
+dev27,6,None,Java,stopwatch,7,j14,Evolvability Defect -> Documentation -> Supported by Language,1,ACR,0
+dev27,6,None,Java,stopwatch,7,j15,Evolvability Defect -> Structure -> Organization,2,ACR,0
+dev27,6,None,Java,stopwatch,7,j16,Evolvability Defect -> Structure -> Organization,2.5,ACR,0
+dev27,6,None,Java,stopwatch,7,j17,Functional Defect -> Interface,3,ACR,1
+dev27,6,None,Java,tic-tac-toe,2,j2,Functional Defect -> Check,3,CCR,1
+dev27,6,None,Java,tic-tac-toe,2,j3,Evolvability Defect -> Documentation -> Textual,2,CCR,1
+dev28,4,Contributor&Reviewer,Python,maze-generator,2,p1,Functional Defect -> Check,2.5,CCR,1
+dev28,4,Contributor&Reviewer,Python,maze-generator,2,p2,Functional Defect -> Check,3,CCR,1
+dev28,4,Contributor&Reviewer,Python,number-conversion,2,p17,Functional Defect -> Interface,3,ACR,0
+dev28,4,Contributor&Reviewer,Python,number-conversion,2,p18,Functional Defect -> Check,1.5,ACR,1
+dev28,4,Contributor&Reviewer,Python,word-utils,7,p19,Evolvability Defect -> Documentation -> Textual,2,MCR,0
+dev28,4,Contributor&Reviewer,Python,word-utils,7,p20,Evolvability Defect -> Structure -> Solution Approach,2,MCR,0
+dev28,4,Contributor&Reviewer,Python,word-utils,7,p21,Evolvability Defect -> Structure -> Solution Approach,2,MCR,0
+dev28,4,Contributor&Reviewer,Python,word-utils,7,p22,Evolvability Defect -> Documentation -> Textual,1.5,MCR,0
+dev28,4,Contributor&Reviewer,Python,word-utils,7,p23,Evolvability Defect -> Documentation -> Textual,1.5,MCR,0
+dev28,4,Contributor&Reviewer,Python,word-utils,7,p24,Evolvability Defect -> Documentation -> Textual,1.5,MCR,0
+dev28,4,Contributor&Reviewer,Python,word-utils,7,p25,Evolvability Defect -> Documentation -> Textual,1.5,MCR,0
+dev29,3,Contributor&Reviewer,Python,maze-generator,2,p1,Functional Defect -> Check,2.5,MCR,0
+dev29,3,Contributor&Reviewer,Python,maze-generator,2,p2,Functional Defect -> Check,3,MCR,0
+dev29,3,Contributor&Reviewer,Python,number-conversion,2,p17,Functional Defect -> Interface,3,CCR,1
+dev29,3,Contributor&Reviewer,Python,number-conversion,2,p18,Functional Defect -> Check,1.5,CCR,1
+dev29,3,Contributor&Reviewer,Python,word-utils,7,p19,Evolvability Defect -> Documentation -> Textual,2,ACR,1
+dev29,3,Contributor&Reviewer,Python,word-utils,7,p20,Evolvability Defect -> Structure -> Solution Approach,2,ACR,0
+dev29,3,Contributor&Reviewer,Python,word-utils,7,p21,Evolvability Defect -> Structure -> Solution Approach,2,ACR,0
+dev29,3,Contributor&Reviewer,Python,word-utils,7,p22,Evolvability Defect -> Documentation -> Textual,1.5,ACR,0
+dev29,3,Contributor&Reviewer,Python,word-utils,7,p23,Evolvability Defect -> Documentation -> Textual,1.5,ACR,0
+dev29,3,Contributor&Reviewer,Python,word-utils,7,p24,Evolvability Defect -> Documentation -> Textual,1.5,ACR,0
+dev29,3,Contributor&Reviewer,Python,word-utils,7,p25,Evolvability Defect -> Documentation -> Textual,1.5,ACR,0
+dev3,30,None,Python,maze-generator,2,p1,Functional Defect -> Check,2.5,CCR,1
+dev3,30,None,Python,maze-generator,2,p2,Functional Defect -> Check,3,CCR,1
+dev3,30,None,Python,tic-tac-toe,7,p3,Functional Defect -> Interface,3,MCR,0
+dev3,30,None,Python,tic-tac-toe,7,p4,Evolvability Defect -> Documentation -> Textual,2,MCR,1
+dev3,30,None,Python,tic-tac-toe,7,p5,Evolvability Defect -> Structure -> Organization,2.5,MCR,0
+dev3,30,None,Python,tic-tac-toe,7,p6,Functional Defect -> Logic,2,MCR,0
+dev3,30,None,Python,tic-tac-toe,7,p7,Functional Defect -> Check,3,MCR,0
+dev3,30,None,Python,tic-tac-toe,7,p8,Evolvability Defect -> Structure -> Organization,2.5,MCR,0
+dev3,30,None,Python,tic-tac-toe,7,p9,Evolvability Defect -> Structure -> Organization,2,MCR,0
+dev3,30,None,Python,number-conversion,2,p17,Evolvability Defect -> Structure -> Organization,2,ACR,1
+dev3,30,None,Python,number-conversion,2,p18,Evolvability Defect -> Structure -> Organization,2.5,ACR,1
+dev31,10,None,Python,tic-tac-toe,7,p3,Evolvability Defect -> Structure -> Organization,2.5,ACR,0
+dev31,10,None,Python,tic-tac-toe,7,p4,Functional Defect -> Logic,2,ACR,1
+dev31,10,None,Python,tic-tac-toe,7,p5,Functional Defect -> Check,3,ACR,1
+dev31,10,None,Python,tic-tac-toe,7,p6,Evolvability Defect -> Structure -> Organization,2.5,ACR,1
+dev31,10,None,Python,tic-tac-toe,7,p7,Evolvability Defect -> Structure -> Organization,2,ACR,1
+dev31,10,None,Python,tic-tac-toe,7,p8,Evolvability Defect -> Structure -> Organization,2,ACR,0
+dev31,10,None,Python,tic-tac-toe,7,p9,Evolvability Defect -> Structure -> Organization,2.5,ACR,1
+dev33,10,Contributor&Reviewer,Java,maze-generator,1,j1,Evolvability Defect -> Structure -> Solution Approach,2.5,CCR,1
+dev33,10,Contributor&Reviewer,Java,todo-list,3,j4,Evolvability Defect -> Documentation -> Textual,1.5,MCR,0
+dev33,10,Contributor&Reviewer,Java,todo-list,3,j5,Evolvability Defect -> Documentation -> Textual,1.5,MCR,1
+dev33,10,Contributor&Reviewer,Java,todo-list,3,j6,Functional Defect -> Check,3,MCR,1
+dev33,10,Contributor&Reviewer,Java,word-utils,6,j18,Evolvability Defect -> Structure -> Solution Approach,1.5,ACR,0
+dev33,10,Contributor&Reviewer,Java,word-utils,6,j19,Evolvability Defect -> Documentation -> Textual,1.5,ACR,0
+dev33,10,Contributor&Reviewer,Java,word-utils,6,j20,Evolvability Defect -> Structure -> Solution Approach,1.5,ACR,1
+dev33,10,Contributor&Reviewer,Java,word-utils,6,j21,Evolvability Defect -> Structure -> Solution Approach,2.5,ACR,0
+dev33,10,Contributor&Reviewer,Java,word-utils,6,j22,Functional Defect -> Check,3,ACR,0
+dev33,10,Contributor&Reviewer,Java,word-utils,6,j23,Functional Defect -> Check,3,ACR,0
+dev34,10,Contributor&Reviewer,Python,stopwatch,4,p13,Evolvability Defect -> Documentation -> Textual,2.5,CCR,1
+dev34,10,Contributor&Reviewer,Python,stopwatch,4,p14,Evolvability Defect -> Documentation -> Textual,2.5,CCR,1
+dev34,10,Contributor&Reviewer,Python,stopwatch,4,p15,Evolvability Defect -> Structure -> Solution Approach,2,CCR,1
+dev34,10,Contributor&Reviewer,Python,stopwatch,4,p16,Evolvability Defect -> Structure -> Solution Approach,2,CCR,1
+dev35,23,Contributor&Reviewer,Python,tic-tac-toe,7,p3,Functional Defect -> Check,3,CCR,1
+dev35,23,Contributor&Reviewer,Python,tic-tac-toe,7,p4,Functional Defect -> Check,3,CCR,1
+dev35,23,Contributor&Reviewer,Python,tic-tac-toe,7,p5,Functional Defect -> Logic,2,CCR,1
+dev35,23,Contributor&Reviewer,Python,tic-tac-toe,7,p6,Evolvability Defect -> Documentation -> Textual,2.5,CCR,1
+dev35,23,Contributor&Reviewer,Python,tic-tac-toe,7,p7,Evolvability Defect -> Documentation -> Textual,2.5,CCR,1
+dev35,23,Contributor&Reviewer,Python,tic-tac-toe,7,p8,Evolvability Defect -> Structure -> Solution Approach,2,CCR,1
+dev35,23,Contributor&Reviewer,Python,tic-tac-toe,7,p9,Evolvability Defect -> Structure -> Solution Approach,2,CCR,1
+dev35,23,Contributor&Reviewer,Python,stopwatch,4,p13,Evolvability Defect -> Structure -> Organization,2.5,ACR,0
+dev35,23,Contributor&Reviewer,Python,stopwatch,4,p14,Functional Defect -> Logic,2,ACR,0
+dev35,23,Contributor&Reviewer,Python,stopwatch,4,p15,Functional Defect -> Check,3,ACR,0
+dev35,23,Contributor&Reviewer,Python,stopwatch,4,p16,Evolvability Defect -> Structure -> Organization,2.5,ACR,0
+dev35,23,Contributor&Reviewer,Python,todo-list,3,p10,Evolvability Defect -> Structure -> Organization,2,MCR,0
+dev35,23,Contributor&Reviewer,Python,todo-list,3,p11,Evolvability Defect -> Structure -> Organization,2,MCR,1
+dev35,23,Contributor&Reviewer,Python,todo-list,3,p12,Evolvability Defect -> Structure -> Organization,2.5,MCR,1
+dev36,15,Contributor&Reviewer,Java,maze-generator,1,j1,Evolvability Defect -> Structure -> Solution Approach,2.5,ACR,1
+dev36,15,Contributor&Reviewer,Java,number-conversion,4,j7,Evolvability Defect -> Documentation -> Textual,3,CCR,1
+dev36,15,Contributor&Reviewer,Java,number-conversion,4,j8,Evolvability Defect -> Documentation -> Textual,1.5,CCR,1
+dev36,15,Contributor&Reviewer,Java,number-conversion,4,j9,Evolvability Defect -> Documentation -> Textual,1.5,CCR,1
+dev36,15,Contributor&Reviewer,Java,number-conversion,4,j10,Functional Defect -> Check,3,CCR,1
+dev36,15,Contributor&Reviewer,Java,word-utils,6,j18,Evolvability Defect -> Structure -> Solution Approach,1.5,MCR,1
+dev36,15,Contributor&Reviewer,Java,word-utils,6,j19,Evolvability Defect -> Documentation -> Textual,1.5,MCR,1
+dev36,15,Contributor&Reviewer,Java,word-utils,6,j20,Evolvability Defect -> Structure -> Solution Approach,1.5,MCR,1
+dev36,15,Contributor&Reviewer,Java,word-utils,6,j21,Functional Defect -> Interface,3,MCR,0
+dev36,15,Contributor&Reviewer,Java,word-utils,6,j22,Functional Defect -> Check,3,MCR,1
+dev36,15,Contributor&Reviewer,Java,word-utils,6,j23,Evolvability Defect -> Documentation -> Textual,2,MCR,0
+dev38,10,Contributor&Reviewer,Python,maze-generator,2,p1,Functional Defect -> Check,2.5,ACR,1
+dev38,10,Contributor&Reviewer,Python,maze-generator,2,p2,Functional Defect -> Check,3,ACR,0
+dev38,10,Contributor&Reviewer,Python,number-conversion,2,p17,Functional Defect -> Interface,3,MCR,1
+dev38,10,Contributor&Reviewer,Python,number-conversion,2,p18,Functional Defect -> Check,1.5,MCR,1
+dev38,10,Contributor&Reviewer,Python,word-utils,7,p19,Evolvability Defect -> Documentation -> Textual,2,CCR,1
+dev38,10,Contributor&Reviewer,Python,word-utils,7,p20,Evolvability Defect -> Structure -> Solution Approach,2,CCR,1
+dev38,10,Contributor&Reviewer,Python,word-utils,7,p21,Evolvability Defect -> Structure -> Solution Approach,2,CCR,1
+dev38,10,Contributor&Reviewer,Python,word-utils,7,p22,Evolvability Defect -> Documentation -> Textual,1.5,CCR,1
+dev38,10,Contributor&Reviewer,Python,word-utils,7,p23,Evolvability Defect -> Documentation -> Textual,1.5,CCR,1
+dev38,10,Contributor&Reviewer,Python,word-utils,7,p24,Evolvability Defect -> Documentation -> Textual,1.5,CCR,1
+dev38,10,Contributor&Reviewer,Python,word-utils,7,p25,Evolvability Defect -> Documentation -> Textual,1.5,CCR,1
+dev4,9,Contributor&Reviewer,Python,maze-generator,2,p1,Functional Defect -> Check,2.5,MCR,1
+dev4,9,Contributor&Reviewer,Python,maze-generator,2,p2,Functional Defect -> Check,3,MCR,0
+dev4,9,Contributor&Reviewer,Python,number-conversion,2,p17,Functional Defect -> Interface,3,CCR,0
+dev4,9,Contributor&Reviewer,Python,number-conversion,2,p18,Evolvability Defect -> Documentation -> Textual,2,CCR,1
+dev40,10,Contributor&Reviewer,Java,word-utils,6,j18,Evolvability Defect -> Documentation -> Textual,1.5,ACR,0
+dev40,10,Contributor&Reviewer,Java,word-utils,6,j19,Evolvability Defect -> Documentation -> Textual,1.5,ACR,0
+dev40,10,Contributor&Reviewer,Java,word-utils,6,j20,Functional Defect -> Check,3,ACR,1
+dev40,10,Contributor&Reviewer,Java,word-utils,6,j21,Evolvability Defect -> Structure -> Solution Approach,1.5,ACR,0
+dev40,10,Contributor&Reviewer,Java,word-utils,6,j22,Evolvability Defect -> Documentation -> Textual,1.5,ACR,0
+dev40,10,Contributor&Reviewer,Java,word-utils,6,j23,Evolvability Defect -> Structure -> Solution Approach,1.5,ACR,0
+dev5,27,Contributor&Reviewer,Java,maze-generator,1,j1,Evolvability Defect -> Structure -> Solution Approach,2.5,CCR,1
+dev5,27,Contributor&Reviewer,Java,number-conversion,4,j7,Evolvability Defect -> Documentation -> Textual,3,ACR,1
+dev5,27,Contributor&Reviewer,Java,number-conversion,4,j8,Evolvability Defect -> Documentation -> Textual,2.5,ACR,1
+dev5,27,Contributor&Reviewer,Java,number-conversion,4,j9,Evolvability Defect -> Structure -> Solution Approach,2,ACR,1
+dev5,27,Contributor&Reviewer,Java,number-conversion,4,j10,Evolvability Defect -> Documentation -> Textual,2,ACR,0
+dev5,27,Contributor&Reviewer,Java,stopwatch,7,j11,Evolvability Defect -> Documentation -> Textual,2,MCR,0
+dev5,27,Contributor&Reviewer,Java,stopwatch,7,j12,Evolvability Defect -> Documentation -> Textual,2,MCR,0
+dev5,27,Contributor&Reviewer,Java,stopwatch,7,j13,Evolvability Defect -> Structure -> Solution Approach,2,MCR,0
+dev5,27,Contributor&Reviewer,Java,stopwatch,7,j14,Evolvability Defect -> Documentation -> Supported by Language,1,MCR,0
+dev5,27,Contributor&Reviewer,Java,stopwatch,7,j15,Functional Defect -> Interface,3,MCR,0
+dev5,27,Contributor&Reviewer,Java,stopwatch,7,j16,Functional Defect -> Check,3,MCR,0
+dev5,27,Contributor&Reviewer,Java,stopwatch,7,j17,Evolvability Defect -> Documentation -> Textual,2,MCR,1
+dev6,35,Contributor&Reviewer,Python,stopwatch,4,p13,Functional Defect -> Check,2.5,CCR,1
+dev6,35,Contributor&Reviewer,Python,stopwatch,4,p14,Evolvability Defect -> Documentation -> Textual,2.5,CCR,1
+dev6,35,Contributor&Reviewer,Python,stopwatch,4,p15,Evolvability Defect -> Documentation -> Textual,2.5,CCR,1
+dev6,35,Contributor&Reviewer,Python,stopwatch,4,p16,Evolvability Defect -> Structure -> Solution Approach,2,CCR,1
+dev6,35,Contributor&Reviewer,Python,maze-generator,2,p1,Evolvability Defect -> Structure -> Solution Approach,2,ACR,1
+dev6,35,Contributor&Reviewer,Python,maze-generator,2,p2,Evolvability Defect -> Documentation -> Textual,2,ACR,0
+dev7,11,Contributor&Reviewer,Java,number-conversion,4,j7,Evolvability Defect -> Documentation -> Textual,3,CCR,1
+dev7,11,Contributor&Reviewer,Java,number-conversion,4,j8,Evolvability Defect -> Documentation -> Textual,2.5,CCR,1
+dev7,11,Contributor&Reviewer,Java,number-conversion,4,j9,Evolvability Defect -> Structure -> Solution Approach,2,CCR,1
+dev7,11,Contributor&Reviewer,Java,number-conversion,4,j10,Evolvability Defect -> Documentation -> Textual,2,CCR,1
+dev7,11,Contributor&Reviewer,Java,stopwatch,7,j11,Evolvability Defect -> Documentation -> Textual,2,ACR,0
+dev7,11,Contributor&Reviewer,Java,stopwatch,7,j12,Evolvability Defect -> Documentation -> Textual,2,ACR,0
+dev7,11,Contributor&Reviewer,Java,stopwatch,7,j13,Evolvability Defect -> Structure -> Solution Approach,2,ACR,1
+dev7,11,Contributor&Reviewer,Java,stopwatch,7,j14,Evolvability Defect -> Documentation -> Supported by Language,1,ACR,1
+dev7,11,Contributor&Reviewer,Java,stopwatch,7,j15,Evolvability Defect -> Documentation -> Textual,1.5,ACR,0
+dev7,11,Contributor&Reviewer,Java,stopwatch,7,j16,Evolvability Defect -> Documentation -> Textual,1.5,ACR,1
+dev7,11,Contributor&Reviewer,Java,stopwatch,7,j17,Functional Defect -> Check,3,ACR,1
+dev7,11,Contributor&Reviewer,Java,word-utils,6,j18,Evolvability Defect -> Structure -> Solution Approach,1.5,MCR,0
+dev7,11,Contributor&Reviewer,Java,word-utils,6,j19,Evolvability Defect -> Documentation -> Textual,1.5,MCR,0
+dev7,11,Contributor&Reviewer,Java,word-utils,6,j20,Evolvability Defect -> Structure -> Solution Approach,1.5,MCR,1
+dev7,11,Contributor&Reviewer,Java,word-utils,6,j21,Functional Defect -> Interface,3,MCR,0
+dev7,11,Contributor&Reviewer,Java,word-utils,6,j22,Functional Defect -> Check,3,MCR,0
+dev7,11,Contributor&Reviewer,Java,word-utils,6,j23,Evolvability Defect -> Documentation -> Textual,2,MCR,0
+dev9,20,Contributor&Reviewer,Java,number-conversion,4,j7,Evolvability Defect -> Documentation -> Textual,3,MCR,1
+dev9,20,Contributor&Reviewer,Java,number-conversion,4,j8,Evolvability Defect -> Documentation -> Textual,2.5,MCR,1
+dev9,20,Contributor&Reviewer,Java,number-conversion,4,j9,Evolvability Defect -> Structure -> Solution Approach,2,MCR,1
+dev9,20,Contributor&Reviewer,Java,number-conversion,4,j10,Evolvability Defect -> Documentation -> Textual,2,MCR,1
+dev9,20,Contributor&Reviewer,Java,stopwatch,7,j11,Evolvability Defect -> Documentation -> Textual,2,CCR,1
+dev9,20,Contributor&Reviewer,Java,stopwatch,7,j12,Evolvability Defect -> Documentation -> Textual,2,CCR,1
+dev9,20,Contributor&Reviewer,Java,stopwatch,7,j13,Evolvability Defect -> Structure -> Solution Approach,2,CCR,1
+dev9,20,Contributor&Reviewer,Java,stopwatch,7,j14,Evolvability Defect -> Documentation -> Supported by Language,1,CCR,1
+dev9,20,Contributor&Reviewer,Java,stopwatch,7,j15,Functional Defect -> Interface,3,CCR,0
+dev9,20,Contributor&Reviewer,Java,stopwatch,7,j16,Functional Defect -> Check,3,CCR,1
+dev9,20,Contributor&Reviewer,Java,stopwatch,7,j17,Evolvability Defect -> Documentation -> Textual,2,CCR,1
